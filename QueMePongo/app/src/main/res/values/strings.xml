@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Que Me Pongo</string>
+    <string name="msg_inicio">Bienvenido :)</string>
+    <string name="boton_inicio">Comenzar</string>
+    <string name="msg_testing">MENSAJE TESTEO</string>
+    <string name="femenino">Femenino</string>
+    <string name="masculino">Masculino</string>
+    <string name="sexo">Sexo</string>
+    <string name="boton_seguir">Siguiente</string>
+    <string name="estilo">Estilo</string>
+    <string name="casual">Casual</string>
+    <string name="formal">Formal</string>
+
+</resources>
