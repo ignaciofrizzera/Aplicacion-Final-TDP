@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 
 /**
@@ -13,6 +14,7 @@ public class EstiloActivity extends AppCompatActivity {
 
     private CheckBox check_casual;
     private CheckBox check_formal;
+    private Button siguiente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,11 +25,13 @@ public class EstiloActivity extends AppCompatActivity {
     }
 
     /**
-     * Inicializa los checkbox de la actividad.
+     * Inicializa la actividad y sus elementos.
      */
     private void startUp(){
         check_casual = (CheckBox)findViewById(R.id.boton_casual);
         check_formal = (CheckBox)findViewById(R.id.boton_formal);
+        siguiente = (Button)findViewById(R.id.boton_seguir_estilo);
+        siguiente.setEnabled(false);
     }
 
     /**
@@ -39,15 +43,18 @@ public class EstiloActivity extends AppCompatActivity {
         if(check_formal.isChecked()) {
             check_casual.setEnabled(false);
             PhoneData.getData().setEstilo(check_formal.getText().toString());
+            siguiente.setEnabled(true);
         }
         else {
             if (check_casual.isChecked()) {
                 check_formal.setEnabled(false);
                 PhoneData.getData().setEstilo(check_casual.getText().toString());
+                siguiente.setEnabled(true);
             }
             else{
                 check_casual.setEnabled(true);
                 check_formal.setEnabled(true);
+                siguiente.setEnabled(false);
             }
         }
     }

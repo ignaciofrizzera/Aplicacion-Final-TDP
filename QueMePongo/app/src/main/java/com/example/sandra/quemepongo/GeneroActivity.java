@@ -5,6 +5,7 @@ import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CheckBox;
 
 /**
@@ -14,6 +15,8 @@ public class GeneroActivity extends AppCompatActivity {
 
     private CheckBox check_femenino;
     private CheckBox check_masculino;
+    private Button siguiente;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,11 +27,13 @@ public class GeneroActivity extends AppCompatActivity {
     }
 
     /**
-     * Inicializa los checkbox de la actividad.
+     * Inicializa la actividad y sus elementos.
      */
     private void startUp(){
         check_femenino = (CheckBox) findViewById(R.id.boton_femenino);
         check_masculino = (CheckBox) findViewById(R.id.boton_masculino);
+        siguiente = (Button) findViewById(R.id.boton_seguir_genero);
+        siguiente.setEnabled(false);
     }
 
     /**
@@ -40,15 +45,18 @@ public class GeneroActivity extends AppCompatActivity {
         if(check_masculino.isChecked()) {
             check_femenino.setEnabled(false);
             PhoneData.getData().setGenero(check_masculino.getText().toString());
+            siguiente.setEnabled(true);
         }
         else {
             if (check_femenino.isChecked()) {
                 check_masculino.setEnabled(false);
                 PhoneData.getData().setGenero(check_femenino.getText().toString());
+                siguiente.setEnabled(true);
             }
             else{
                 check_masculino.setEnabled(true);
                 check_femenino.setEnabled(true);
+                siguiente.setEnabled(false);
             }
         }
     }

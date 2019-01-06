@@ -53,7 +53,7 @@
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/boton_seguir_genero"
         android:layout_width="104dp"
         android:layout_height="36dp"
         android:layout_marginBottom="222dp"

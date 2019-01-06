@@ -52,7 +52,7 @@
         android:onClick="onCheckBoxClicked" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/boton_seguir_estilo"
         android:layout_width="104dp"
         android:layout_height="36dp"
         android:layout_marginBottom="222dp"
