@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
+import com.example.sandra.quemepongo.data.PhoneData;
+
 /**
  * Clase/Actividad encargada de capturar el estilo de vestir del usuario.
  */
@@ -64,7 +66,7 @@ public class EstiloActivity extends AppCompatActivity {
      * @param view
      */
     public void nextActivity(View view){
-        Intent intent = new Intent(this,ResultadosActivity.class);
+        Intent intent = new Intent(this,ClimaActivity.class);
         startActivity(intent);
     }
 }

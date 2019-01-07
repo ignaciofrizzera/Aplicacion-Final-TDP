@@ -1,12 +1,13 @@
 package com.example.sandra.quemepongo;
 
 import android.content.Intent;
-import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+
+import com.example.sandra.quemepongo.data.PhoneData;
 
 /**
  * Clase/Actividad encargada de capturar el genero del usuario.

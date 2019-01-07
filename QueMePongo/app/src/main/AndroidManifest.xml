@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sandra.quemepongo">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -30,7 +31,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".GeneroActivity" />
         </activity>
-        <activity android:name=".ResultadosActivity" />
+        <activity android:name=".ClimaActivity" />
         <activity android:name=".InfoActivity">
             android:parentActivityName=".MainActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
@@ -38,6 +39,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity android:name=".ResultadosActivity"></activity>
     </application>
 
 </manifest>
