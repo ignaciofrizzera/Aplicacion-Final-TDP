@@ -1,13 +1,13 @@
-package com.example.sandra.quemepongo;
+package com.example.sandra.quemepongo.actividades;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ResultadosActivity extends AppCompatActivity {
+public class InfoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resultados);
+        setContentView(com.example.sandra.quemepongo.R.layout.activity_info);
     }
 }

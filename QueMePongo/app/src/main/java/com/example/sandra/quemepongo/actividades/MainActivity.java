@@ -1,9 +1,12 @@
-package com.example.sandra.quemepongo;
+package com.example.sandra.quemepongo.actividades;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.sandra.quemepongo.actividades.GeneroActivity;
+import com.example.sandra.quemepongo.actividades.InfoActivity;
 
 /**
  * Clase/Actividad principal. Primer pantalla de la aplicacion.
@@ -15,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.example.sandra.quemepongo.R.layout.activity_main);
     }
 
     /**

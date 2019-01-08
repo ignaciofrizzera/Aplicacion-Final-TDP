@@ -1,4 +1,4 @@
-package com.example.sandra.quemepongo;
+package com.example.sandra.quemepongo.actividades;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
+import com.example.sandra.quemepongo.actividades.EstiloActivity;
 import com.example.sandra.quemepongo.data.PhoneData;
 
 /**
@@ -22,7 +23,7 @@ public class GeneroActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_genero);
+        setContentView(com.example.sandra.quemepongo.R.layout.activity_genero);
 
         this.startUp();
     }
@@ -31,9 +32,9 @@ public class GeneroActivity extends AppCompatActivity {
      * Inicializa la actividad y sus elementos.
      */
     private void startUp(){
-        check_femenino = (CheckBox) findViewById(R.id.boton_femenino);
-        check_masculino = (CheckBox) findViewById(R.id.boton_masculino);
-        siguiente = (Button) findViewById(R.id.boton_seguir_genero);
+        check_femenino = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.boton_femenino);
+        check_masculino = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.boton_masculino);
+        siguiente = (Button) findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_genero);
         siguiente.setEnabled(false);
     }
 

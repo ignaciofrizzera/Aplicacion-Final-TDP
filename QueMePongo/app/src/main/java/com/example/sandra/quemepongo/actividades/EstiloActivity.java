@@ -1,4 +1,4 @@
-package com.example.sandra.quemepongo;
+package com.example.sandra.quemepongo.actividades;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
+import com.example.sandra.quemepongo.actividades.ClimaActivity;
 import com.example.sandra.quemepongo.data.PhoneData;
 
 /**
@@ -21,7 +22,7 @@ public class EstiloActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_estilo);
+        setContentView(com.example.sandra.quemepongo.R.layout.activity_estilo);
 
         this.startUp();
     }
@@ -30,9 +31,9 @@ public class EstiloActivity extends AppCompatActivity {
      * Inicializa la actividad y sus elementos.
      */
     private void startUp(){
-        check_casual = (CheckBox)findViewById(R.id.boton_casual);
-        check_formal = (CheckBox)findViewById(R.id.boton_formal);
-        siguiente = (Button)findViewById(R.id.boton_seguir_estilo);
+        check_casual = (CheckBox)findViewById(com.example.sandra.quemepongo.R.id.boton_casual);
+        check_formal = (CheckBox)findViewById(com.example.sandra.quemepongo.R.id.boton_formal);
+        siguiente = (Button)findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_estilo);
         siguiente.setEnabled(false);
     }
 

@@ -10,36 +10,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".actividades.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GeneroActivity">
+        <activity android:name=".actividades.GeneroActivity">
             android:parentActivityName=".MainActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".actividades.MainActivity" />
         </activity>
-        <activity android:name=".EstiloActivity">
+        <activity android:name=".actividades.EstiloActivity">
             android:parentActivityName=".GeneroActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".GeneroActivity" />
+                android:value=".actividades.GeneroActivity" />
         </activity>
-        <activity android:name=".ClimaActivity" />
-        <activity android:name=".InfoActivity">
+        <activity android:name=".actividades.ClimaActivity" />
+        <activity android:name=".actividades.InfoActivity">
             android:parentActivityName=".MainActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".actividades.MainActivity" />
         </activity>
-        <activity android:name=".ResultadosActivity"></activity>
+        <activity android:name=".actividades.ResultadosActivity"></activity>
     </application>
 
 </manifest>

@@ -19,7 +19,6 @@ public class PhoneData {
      * Singleton ya que en ejecucion se contara con una sola instancia de PhoneData.
      */
     private PhoneData(){
-
     }
 
     /**
@@ -48,9 +47,46 @@ public class PhoneData {
         return estilo;
     }
 
+    /**
+     *
+     * @return
+     */
     public double getTempAct(){
         return temp_actual;
     }
+
+    /**
+     *
+     * @return
+     */
+    public double getTempMin(){
+        return temp_min;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public double getTempMax(){
+        return temp_max;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public String getCiudad(){
+        return ciudad;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public int getHumedad(){
+        return humedad;
+    }
+
     /**
      * Setea el estilo de vestir del usuario. Puede ser casual o formal.
      * @param estilo estilo de vestir del usuario.
@@ -67,18 +103,42 @@ public class PhoneData {
         this.genero = genero;
     }
 
+    /**
+     *
+     * @param temp_min
+     */
     public void setTempMin(double temp_min){
-        this.temp_min = temp_min;
+        this.temp_min = temp_min -  273.15;
     }
+
+    /**
+     *
+     * @param temp_max
+     */
     public void setTempMax(double temp_max){
-        this.temp_max = temp_max;
+        this.temp_max = temp_max -  273.15;
     }
+
+    /**
+     *
+     * @param temp_actual
+     */
     public void setTempAct(double temp_actual){
-        this.temp_actual = temp_actual;
+        this.temp_actual = temp_actual -  273.15;
     }
+
+    /**
+     *
+     * @param ciudad
+     */
     public void setCiudad(String ciudad){
         this.ciudad = ciudad;
     }
+
+    /**
+     *
+     * @param humedad
+     */
     public void setHumedad(int humedad){
         this.humedad = humedad;
     }
