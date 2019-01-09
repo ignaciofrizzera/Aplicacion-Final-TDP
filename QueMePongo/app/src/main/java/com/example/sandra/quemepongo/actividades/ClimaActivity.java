@@ -67,7 +67,7 @@ public class ClimaActivity extends AppCompatActivity {
                             aux.setTempMin(main_object.getDouble("temp_min"));
                             aux.setCiudad(response.getString("name"));
                             aux.setHumedad(main_object.getInt("humidity"));
-                            cartel_ciudad.setText("MEGA HYPER FIXEO EPIC WIN");
+                            cartel_ciudad.setText("");
                             boton_siguiente.setEnabled(true);
                             check_ciudad.setChecked(false);
                         } catch (JSONException e) {

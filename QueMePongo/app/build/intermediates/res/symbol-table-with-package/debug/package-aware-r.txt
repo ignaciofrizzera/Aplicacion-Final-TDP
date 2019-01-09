@@ -689,6 +689,9 @@ id boton_seguir_estilo
 id boton_seguir_genero
 id bottom
 id buttonPanel
+id cartel_ciudad
+id cartel_hum
+id cartel_temp
 id center
 id center_horizontal
 id center_vertical

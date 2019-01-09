@@ -6,4 +6,51 @@
     android:layout_height="match_parent"
     tools:context="actividades.ResultadosActivity">
 
+    <TextView
+        android:id="@+id/cartel_temp"
+        android:layout_width="233dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:layout_marginBottom="37dp"
+        app:layout_constraintBottom_toTopOf="@+id/cartel_hum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cartel_ciudad" />
+
+    <TextView
+        android:id="@+id/cartel_ciudad"
+        android:layout_width="216dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toTopOf="@+id/cartel_temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cartel_hum"
+        android:layout_width="155dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginRight="149dp"
+        android:layout_marginBottom="212dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cartel_temp" />
+
 </android.support.constraint.ConstraintLayout>
