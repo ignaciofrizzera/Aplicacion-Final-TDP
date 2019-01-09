@@ -27,7 +27,7 @@ public class PhoneData {
      */
     public static PhoneData getData(){
         if(data == null)
-            return new PhoneData();
+            data = new PhoneData();
         return data;
     }
 

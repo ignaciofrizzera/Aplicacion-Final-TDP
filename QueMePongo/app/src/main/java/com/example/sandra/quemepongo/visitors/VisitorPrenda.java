@@ -1,5 +1,6 @@
 package com.example.sandra.quemepongo.visitors;
 
+import com.example.sandra.quemepongo.data.PhoneData;
 import com.example.sandra.quemepongo.prendas.abrigos.Buzo;
 import com.example.sandra.quemepongo.prendas.abrigos.Campera;
 import com.example.sandra.quemepongo.prendas.abrigos.Chaleco;
@@ -30,6 +31,10 @@ import com.example.sandra.quemepongo.prendas.remeras.Termica;
  * Visitor destinado a determinar el puntaje de las prendas.
  */
 public class VisitorPrenda implements Visitor {
+
+    /**Para la altura que el visitor trabaje, la data va a estar inicializada ya.*/
+    private PhoneData data = PhoneData.getData();
+
     @Override
     public void visitCampera(Campera c) {
 

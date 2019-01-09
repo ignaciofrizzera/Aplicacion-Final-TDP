@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Nacho\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
+            "outputFile": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th\\values-th.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Nacho\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c64c7404d399ea15d7ff61c660e948a0\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Nacho\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\54cb6e1d3fe55d504c5b44482645e3c9\\res\\values-th\\values-th.xml",
+                    "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\096fd2b5d97322669e136dc4c68e7cf5\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

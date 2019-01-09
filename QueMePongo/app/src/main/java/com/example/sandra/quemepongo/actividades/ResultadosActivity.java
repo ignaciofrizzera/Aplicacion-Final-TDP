@@ -9,5 +9,11 @@ public class ResultadosActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(com.example.sandra.quemepongo.R.layout.activity_resultados);
+
+        this.startUp();
+    }
+
+    private void startUp(){
+        //TODO
     }
 }
