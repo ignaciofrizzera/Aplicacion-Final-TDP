@@ -1,0 +1,189 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:1-45:12
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1dc0980fa008a76195757ebdd0fdbb6e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c64c7404d399ea15d7ff61c660e948a0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac46751642b747ad1103e41d73cd0b42\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\07270ec9bd879c4e081d09066157a2fe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d86f6d0b5259c75810c8fa6f4d135837\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\98a63ce7561bdfe7e44ad0d00ff32786\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6e1ef6bf1ce3d8bb6d20f18fb2d39afb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\fb0592adc33849d3a2cc699d3a6e5ce6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\03bc283fd85d787a4f761034555662b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\cb3bec2b48e977c0aca58c9551d35465\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ed2d5f6524cf7e16548612a16d1686c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\73bcd71d981fe30bc50bbb7b8385379e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\fd08a848a6831bd9cf955fe2ff19d1cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\bc707c51ade67531146898f0dc2811f8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\945f3f7ad3a41f3d0905e8bcdea3b2f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\68c01e9a04298756c3808160de14211b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54cb6e1d3fe55d504c5b44482645e3c9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f243b0aa812b49c644f2d4096c174378\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e9296ac612a76612775529a136082556\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\452541daf296fe781ac30e7c9a274611\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\cd1a2a17003318b8132ae05822156a98\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\eb5a771a8c2675d4e1d660d1c928f3ba\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\5a298acdc03cbd30a43e01473e940e16\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\fdaaad3f73dbcfe1dad2b707c30a17b4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\ff936b33382ae8f31b29603de470ad24\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\55435dbfe5c63ab1e819df41b4939795\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7e85074681354b27aa993cf6e4072c05\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7c497bdca63f24436eb5ffb515ab89c9\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:6:5-43:19
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1dc0980fa008a76195757ebdd0fdbb6e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1dc0980fa008a76195757ebdd0fdbb6e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac46751642b747ad1103e41d73cd0b42\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac46751642b747ad1103e41d73cd0b42\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54cb6e1d3fe55d504c5b44482645e3c9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54cb6e1d3fe55d504c5b44482645e3c9\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f243b0aa812b49c644f2d4096c174378\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f243b0aa812b49c644f2d4096c174378\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54cb6e1d3fe55d504c5b44482645e3c9\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.sandra.quemepongo.actividades.MainActivity
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:13:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.sandra.quemepongo.actividades.GeneroActivity
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:20:9-26:20
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:20:19-61
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:23:13-25:61
+	android:value
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:25:17-58
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:24:17-63
+activity#com.example.sandra.quemepongo.actividades.EstiloActivity
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:27:9-33:20
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:27:19-61
+activity#com.example.sandra.quemepongo.actividades.ClimaActivity
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:34:9-63
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:34:19-60
+activity#com.example.sandra.quemepongo.actividades.InfoActivity
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:35:9-41:20
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:35:19-59
+activity#com.example.sandra.quemepongo.actividades.ResultadosActivity
+ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:42:9-77
+	android:name
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml:42:19-65
+uses-sdk
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1dc0980fa008a76195757ebdd0fdbb6e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1dc0980fa008a76195757ebdd0fdbb6e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c64c7404d399ea15d7ff61c660e948a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\c64c7404d399ea15d7ff61c660e948a0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac46751642b747ad1103e41d73cd0b42\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ac46751642b747ad1103e41d73cd0b42\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\07270ec9bd879c4e081d09066157a2fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\07270ec9bd879c4e081d09066157a2fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d86f6d0b5259c75810c8fa6f4d135837\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\d86f6d0b5259c75810c8fa6f4d135837\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\98a63ce7561bdfe7e44ad0d00ff32786\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\98a63ce7561bdfe7e44ad0d00ff32786\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6e1ef6bf1ce3d8bb6d20f18fb2d39afb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\6e1ef6bf1ce3d8bb6d20f18fb2d39afb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\fb0592adc33849d3a2cc699d3a6e5ce6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\fb0592adc33849d3a2cc699d3a6e5ce6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\03bc283fd85d787a4f761034555662b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\03bc283fd85d787a4f761034555662b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\cb3bec2b48e977c0aca58c9551d35465\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\cb3bec2b48e977c0aca58c9551d35465\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ed2d5f6524cf7e16548612a16d1686c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\ed2d5f6524cf7e16548612a16d1686c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\73bcd71d981fe30bc50bbb7b8385379e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\73bcd71d981fe30bc50bbb7b8385379e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\fd08a848a6831bd9cf955fe2ff19d1cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\fd08a848a6831bd9cf955fe2ff19d1cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\bc707c51ade67531146898f0dc2811f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\bc707c51ade67531146898f0dc2811f8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\945f3f7ad3a41f3d0905e8bcdea3b2f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\945f3f7ad3a41f3d0905e8bcdea3b2f1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\68c01e9a04298756c3808160de14211b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\68c01e9a04298756c3808160de14211b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54cb6e1d3fe55d504c5b44482645e3c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\54cb6e1d3fe55d504c5b44482645e3c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f243b0aa812b49c644f2d4096c174378\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f243b0aa812b49c644f2d4096c174378\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e9296ac612a76612775529a136082556\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\e9296ac612a76612775529a136082556\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\452541daf296fe781ac30e7c9a274611\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\452541daf296fe781ac30e7c9a274611\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\cd1a2a17003318b8132ae05822156a98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\cd1a2a17003318b8132ae05822156a98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\eb5a771a8c2675d4e1d660d1c928f3ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\eb5a771a8c2675d4e1d660d1c928f3ba\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\5a298acdc03cbd30a43e01473e940e16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\5a298acdc03cbd30a43e01473e940e16\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\fdaaad3f73dbcfe1dad2b707c30a17b4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\fdaaad3f73dbcfe1dad2b707c30a17b4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\ff936b33382ae8f31b29603de470ad24\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\ff936b33382ae8f31b29603de470ad24\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\55435dbfe5c63ab1e819df41b4939795\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\55435dbfe5c63ab1e819df41b4939795\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7e85074681354b27aa993cf6e4072c05\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7e85074681354b27aa993cf6e4072c05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7c497bdca63f24436eb5ffb515ab89c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Nacho\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7c497bdca63f24436eb5ffb515ab89c9\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nacho\Documents\Aplicacion-Final-TDP\QueMePongo\app\src\main\AndroidManifest.xml
