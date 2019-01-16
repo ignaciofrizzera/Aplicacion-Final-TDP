@@ -70,6 +70,8 @@ public class ClimaActivity extends AppCompatActivity {
                             cartel_ciudad.setText("");
                             boton_siguiente.setEnabled(true);
                             check_ciudad.setChecked(false);
+
+                            /** TODO: Agregar descripcion y google translate luego*/
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }

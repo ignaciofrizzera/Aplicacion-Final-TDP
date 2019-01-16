@@ -8,12 +8,12 @@ public class PhoneData {
     private static PhoneData data = null;
 
     private int humedad;
-    private String genero;
-    private String estilo;
     private double temp_min;
     private double temp_max;
     private double temp_actual;
     private String ciudad;
+    private boolean es_mujer;
+    private boolean es_formal;
 
     /**
      * Singleton ya que en ejecucion se contara con una sola instancia de PhoneData.
@@ -35,16 +35,16 @@ public class PhoneData {
      * Retorna el genero del usuario.
      * @return genero del usuario.
      */
-    public String getGenero() {
-        return genero;
+    public boolean esMujer() {
+        return es_mujer;
     }
 
     /**
      * Retorna el estilo de vestir del usuario.
      * @return estilo de vestir del usuario.
      */
-    public String getEstilo(){
-        return estilo;
+    public boolean esFormal(){
+        return es_formal;
     }
 
     /**
@@ -89,18 +89,18 @@ public class PhoneData {
 
     /**
      * Setea el estilo de vestir del usuario. Puede ser casual o formal.
-     * @param estilo estilo de vestir del usuario.
+     * @param es_formal estilo de vestir del usuario.
      */
-    public void setEstilo(String estilo){
-        this.estilo = estilo;
+    public void setFormal(boolean es_formal){
+        this.es_formal = es_formal;
     }
 
     /**
      * Setea el genero del usuario. Puede ser femenino o masculino.
-     * @param genero genero del usuario.
+     * @param es_mujer genero del usuario.
      */
-    public void setGenero(String genero){
-        this.genero = genero;
+    public void setMujer(boolean es_mujer){
+        this.es_mujer = es_mujer;
     }
 
     /**

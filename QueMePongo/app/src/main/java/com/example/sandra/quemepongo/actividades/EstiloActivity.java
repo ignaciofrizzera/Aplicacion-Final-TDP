@@ -45,13 +45,13 @@ public class EstiloActivity extends AppCompatActivity {
     public void onCheckBoxClicked(View view){
         if(check_formal.isChecked()) {
             check_casual.setEnabled(false);
-            PhoneData.getData().setEstilo(check_formal.getText().toString());
+            PhoneData.getData().setFormal(true);
             siguiente.setEnabled(true);
         }
         else {
             if (check_casual.isChecked()) {
                 check_formal.setEnabled(false);
-                PhoneData.getData().setEstilo(check_casual.getText().toString());
+                PhoneData.getData().setFormal(false);
                 siguiente.setEnabled(true);
             }
             else{

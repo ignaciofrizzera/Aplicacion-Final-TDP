@@ -32,17 +32,44 @@ import com.example.sandra.quemepongo.prendas.remeras.Termica;
  */
 public class VisitorPrenda implements Visitor {
 
+    /** TODO : SE PODRÍA USAR UN STATE.
+     * PUNTAJE = 10 - USAR SI O SI
+     * PUNTAJE = 7.5 - RECOMENDABLE
+     * PUNTAJE = 5 - NO RECOMENDABLE
+     * */
+
+    private final double obligatorio = 10;
+    private final double recomendable = 7.5;
+    private final double no_recomendable = 5;
+
     /**Para la altura que el visitor trabaje, la data va a estar inicializada ya.*/
-    private PhoneData data = PhoneData.getData();
+    private final double max = PhoneData.getData().getTempMax();
+    private final double min = PhoneData.getData().getTempMin();
+    private final int humedad = PhoneData.getData().getHumedad();
+    private final boolean es_mujer = PhoneData.getData().esMujer();
+    private final boolean es_formal = PhoneData.getData().esFormal();
 
     @Override
     public void visitCampera(Campera c) {
-
+        //Independiente del estilo y el genero. Prenda bastante generica.
+        if(max < 20) {
+            c.setPuntaje(obligatorio);
+        }
+        else {
+            if (max < 25 && min > 10) {
+                c.setPuntaje(recomendable);
+            }
+            if (humedad > 80) {
+                c.setPuntaje(recomendable);
+            }
+        }
+        if(min > 20){
+            c.setPuntaje(no_recomendable);
+        }
     }
 
     @Override
     public void visitSweater(Sweater s) {
-
     }
 
     @Override

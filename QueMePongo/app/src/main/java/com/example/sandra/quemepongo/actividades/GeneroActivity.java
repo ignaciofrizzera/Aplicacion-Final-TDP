@@ -46,13 +46,13 @@ public class GeneroActivity extends AppCompatActivity {
     public void onCheckBoxClicked(View view){
         if(check_masculino.isChecked()) {
             check_femenino.setEnabled(false);
-            PhoneData.getData().setGenero(check_masculino.getText().toString());
+            PhoneData.getData().setMujer(false);
             siguiente.setEnabled(true);
         }
         else {
             if (check_femenino.isChecked()) {
                 check_masculino.setEnabled(false);
-                PhoneData.getData().setGenero(check_femenino.getText().toString());
+                PhoneData.getData().setMujer(true);
                 siguiente.setEnabled(true);
             }
             else{
