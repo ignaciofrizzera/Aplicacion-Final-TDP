@@ -8,7 +8,7 @@ import com.example.sandra.quemepongo.visitors.Visitor;
 public class Termica extends Remera {
 
     public Termica(){
-        this.nombre = "Termica";
+        this.nombre = "Remera termica";
     }
 
     public void accept(Visitor v) {

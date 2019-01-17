@@ -6,7 +6,6 @@ import com.example.sandra.quemepongo.prendas.abrigos.Campera;
 import com.example.sandra.quemepongo.prendas.abrigos.Chaleco;
 import com.example.sandra.quemepongo.prendas.abrigos.Sweater;
 import com.example.sandra.quemepongo.prendas.accesorios.Bufanda;
-import com.example.sandra.quemepongo.prendas.accesorios.Gafas;
 import com.example.sandra.quemepongo.prendas.accesorios.Paraguas;
 import com.example.sandra.quemepongo.prendas.calzados.Borcego;
 import com.example.sandra.quemepongo.prendas.calzados.Bota;
@@ -62,11 +61,6 @@ public interface Visitor {
      */
     public void visitBufanda(Bufanda b);
 
-    /**
-     * Setea puntaje de unas gafas segun la información del usuario.
-     * @param g gafas a puntear.
-     */
-    public void visitGafas(Gafas g);
 
     /**
      * Setea puntaje de un paraguas segun la información del usuario.

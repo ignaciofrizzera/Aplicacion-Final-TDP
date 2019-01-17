@@ -11,7 +11,6 @@ import com.example.sandra.quemepongo.prendas.abrigos.Campera;
 import com.example.sandra.quemepongo.prendas.abrigos.Chaleco;
 import com.example.sandra.quemepongo.prendas.abrigos.Sweater;
 import com.example.sandra.quemepongo.prendas.accesorios.Bufanda;
-import com.example.sandra.quemepongo.prendas.accesorios.Gafas;
 import com.example.sandra.quemepongo.prendas.accesorios.Paraguas;
 import com.example.sandra.quemepongo.prendas.calzados.Borcego;
 import com.example.sandra.quemepongo.prendas.calzados.Bota;
@@ -39,11 +38,9 @@ import java.util.ArrayList;
 
 public class ResultadosActivity extends AppCompatActivity {
 
-    private TextView cartel_ciudad;
-    private TextView cartel_temp;
-    private TextView cartel_hum;
+    private TextView cartel_info;
     private final PhoneData data = PhoneData.getData();
-    private final String ciudad = data.getCiudad();
+    private final String ciudad = data.getCiudad()+" - ";
     private final String humedad = "Humedad: "+data.getHumedad()+"%";
     private final ArrayList<Prenda> lista_prendas = new ArrayList<Prenda>();
     private String temp;
@@ -64,13 +61,10 @@ public class ResultadosActivity extends AppCompatActivity {
      * Inicializa los carteles con la temperatura, humedad y el nombre de la ciudad del usuario.
      */
     private void startUp(){
-        cartel_ciudad = (TextView)findViewById(R.id.cartel_ciudad);
-        cartel_temp = (TextView)findViewById(R.id.cartel_temp);
-        cartel_hum = (TextView)findViewById(R.id.cartel_hum);
-
-        cartel_ciudad.setText(ciudad);
+        cartel_info = (TextView)findViewById(R.id.cartel_info);
         this.setTemp();
-        cartel_hum.setText(humedad);
+        String message = ciudad + temp + humedad;
+        cartel_info.setText(message);
     }
 
     /**
@@ -82,12 +76,11 @@ public class ResultadosActivity extends AppCompatActivity {
         double temp_max = data.getTempMax();
 
         if(temp_min != temp_max){
-            temp = "Temp. min: "+temp_min+" Temp. max: "+temp_max;
+            temp = "Temp. min: "+temp_min+" Temp. max: "+temp_max+" - ";
         }
         else{
-            temp = "Temperatura: "+data.getTempAct();
+            temp = "Temperatura: "+data.getTempAct()+" - ";
         }
-        cartel_temp.setText(temp);
     }
 
     /**
@@ -110,7 +103,6 @@ public class ResultadosActivity extends AppCompatActivity {
         lista_prendas.add(new Chaleco());
         lista_prendas.add(new Sweater());
         lista_prendas.add(new Bufanda());
-        lista_prendas.add(new Gafas());
         lista_prendas.add(new Paraguas());
         lista_prendas.add(new ZapatillaUrbana());
         lista_prendas.add(new ZapatillaDeportiva());

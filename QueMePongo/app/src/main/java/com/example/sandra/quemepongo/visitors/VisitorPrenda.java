@@ -6,7 +6,6 @@ import com.example.sandra.quemepongo.prendas.abrigos.Campera;
 import com.example.sandra.quemepongo.prendas.abrigos.Chaleco;
 import com.example.sandra.quemepongo.prendas.abrigos.Sweater;
 import com.example.sandra.quemepongo.prendas.accesorios.Bufanda;
-import com.example.sandra.quemepongo.prendas.accesorios.Gafas;
 import com.example.sandra.quemepongo.prendas.accesorios.Paraguas;
 import com.example.sandra.quemepongo.prendas.calzados.Borcego;
 import com.example.sandra.quemepongo.prendas.calzados.Bota;
@@ -32,15 +31,15 @@ import com.example.sandra.quemepongo.prendas.remeras.Termica;
  */
 public class VisitorPrenda implements Visitor {
 
+    /**La forma en que se puntean las prendas es subjectiva a la opinion del autor.*/
+
     /** TODO : SE PODRÍA USAR UN STATE.
      * PUNTAJE = 10 - USAR SI O SI
      * PUNTAJE = 7.5 - RECOMENDABLE
-     * PUNTAJE = 5 - NO RECOMENDABLE
      * */
 
     private final double obligatorio = 10;
     private final double recomendable = 7.5;
-    private final double no_recomendable = 5;
 
     /**Para la altura que el visitor trabaje, la data va a estar inicializada ya.*/
     private final double max = PhoneData.getData().getTempMax();
@@ -51,7 +50,6 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitCampera(Campera c) {
-        //Independiente del estilo y el genero. Prenda bastante generica.
         if(max < 20) {
             c.setPuntaje(obligatorio);
         }
@@ -63,18 +61,30 @@ public class VisitorPrenda implements Visitor {
                 c.setPuntaje(recomendable);
             }
         }
-        if(min > 20){
-            c.setPuntaje(no_recomendable);
-        }
     }
 
     @Override
     public void visitSweater(Sweater s) {
+        if(es_formal){
+            if(max < 20){
+                s.setPuntaje(obligatorio);
+            }
+            if(max < 25 && min > 15){
+                s.setPuntaje(recomendable);
+            }
+        }
     }
 
     @Override
     public void visitBuzo(Buzo b) {
-
+        if(!es_formal){
+            if(max < 20){
+                b.setPuntaje(obligatorio);
+            }
+            if(max < 25 && min > 15){
+                b.setPuntaje(recomendable);
+            }
+        }
     }
 
     @Override
@@ -84,52 +94,93 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitBufanda(Bufanda b) {
-
-    }
-
-    @Override
-    public void visitGafas(Gafas g) {
-
+        if(max < 20){
+            b.setPuntaje(recomendable);
+        }
+        else {
+            if (max < 15) {
+                b.setPuntaje(obligatorio);
+            }
+        }
     }
 
     @Override
     public void visitParaguas(Paraguas p) {
-
+        if(humedad >90){
+            p.setPuntaje(obligatorio);
+        }
+        else {
+            if (humedad < 90 && humedad > 75) {
+                p.setPuntaje(recomendable);
+            }
+        }
     }
 
     @Override
     public void visitBorcego(Borcego b) {
+        if(!es_mujer){
 
+        }
     }
 
     @Override
     public void visitBota(Bota b) {
+        if(!es_formal){
 
+        }
     }
 
     @Override
     public void visitChatas(Chatas c) {
-
+        if(es_mujer){
+            if(es_formal){
+                c.setPuntaje(obligatorio);
+            }
+            else{
+                c.setPuntaje(recomendable);
+            }
+        }
     }
 
     @Override
     public void visitMocasin(Mocasin m) {
-
+        if(es_formal){
+            if(!es_mujer) {
+                m.setPuntaje(obligatorio);
+            }
+            else{
+                m.setPuntaje(recomendable);
+            }
+        }
     }
 
     @Override
     public void visitSandalia(Sandalia s) {
-
+        if(!es_formal){
+            if(min > 20){
+                s.setPuntaje(obligatorio);
+            }
+            if(min > 15){
+                s.setPuntaje(recomendable);
+            }
+        }
     }
 
     @Override
     public void visitTacos(Tacos t) {
+        if(es_mujer){
+            if(es_formal){
+                t.setPuntaje(obligatorio);
+            }
+        }
 
     }
 
     @Override
     public void visitZapatillaDeportiva(ZapatillaDeportiva z) {
+        if(!es_formal){
 
+        }
     }
 
     @Override
@@ -139,27 +190,37 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitCamisaCorta(CamisaCorta c) {
+        if(es_formal){
 
+        }
     }
 
     @Override
     public void visitCamisaLarga(CamisaLarga c) {
+        if(es_formal){
 
+        }
     }
 
     @Override
     public void visitBermudas(Bermudas b) {
+        if(!es_mujer){
 
+        }
     }
 
     @Override
     public void visitShorts(Shorts s) {
+        if(!es_formal){
 
+        }
     }
 
     @Override
     public void visitBabucha(Babucha b) {
+        if(!es_formal){
 
+        }
     }
 
     @Override
@@ -169,17 +230,23 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitRemeraCorta(MangaCorta r) {
+        if(!es_formal){
 
+        }
     }
 
     @Override
     public void visitRemeraLarga(MangaLarga r) {
+        if(!es_formal){
 
+        }
     }
 
     @Override
     public void visitMusculosa(Musculosa m) {
+        if(!es_formal){
 
+        }
     }
 
     @Override
