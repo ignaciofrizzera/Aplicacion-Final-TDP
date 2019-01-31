@@ -132,25 +132,15 @@ public class ResultadosActivity extends AppCompatActivity {
      * Evalua el puntaje de las prendas y en base a este las muestra.
      */
     private void displayClothes(){
+        /**Bad smell aca al comparar los puntajes? */
         for(Prenda p : lista_prendas){
-            if(this.asd(p)){
+            if(p.getPuntaje() == 10){
                 cartel_usar.setText(cartel_usar.getText() + " " +p.getNombre());
             }
-            else{
-                cartel_recomendar.setText(cartel_usar.getText() + " " +p.getNombre());
+            if(p.getPuntaje() == 7.5){
+                cartel_recomendar.setText(cartel_recomendar.getText() + " " +p.getNombre());
             }
         }
-    }
-
-    /**
-     * Solo dos posibles valores, 10 debe usar, 7.5 recomendado.
-     * @param p prenda a analizar el puntaje
-     * @return true si se debe usar, false si se recomienda usar.
-     */
-    private boolean asd(Prenda p){
-        if(p.getPuntaje() == 10)
-            return true;
-        return false;
     }
 
 }

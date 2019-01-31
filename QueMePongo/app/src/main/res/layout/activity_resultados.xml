@@ -25,16 +25,32 @@
 
     <TextView
         android:id="@+id/cartel_usar"
-        android:layout_width="50dp"
-        android:layout_height="37dp"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="112dp" />
+        android:layout_width="297dp"
+        android:layout_height="151dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/cartel_recomendar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cartel_info" />
 
     <TextView
         android:id="@+id/cartel_recomendar"
-        android:layout_width="54dp"
-        android:layout_height="41dp"
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="168dp" />
+        android:layout_width="300dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginBottom="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cartel_usar" />
 
 </android.support.constraint.ConstraintLayout>
