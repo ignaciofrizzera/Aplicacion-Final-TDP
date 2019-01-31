@@ -23,4 +23,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
+    <TextView
+        android:id="@+id/cartel_usar"
+        android:layout_width="50dp"
+        android:layout_height="37dp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/cartel_recomendar"
+        android:layout_width="54dp"
+        android:layout_height="41dp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="168dp" />
+
 </android.support.constraint.ConstraintLayout>

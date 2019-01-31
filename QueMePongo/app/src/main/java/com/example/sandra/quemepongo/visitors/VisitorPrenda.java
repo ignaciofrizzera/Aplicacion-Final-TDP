@@ -48,6 +48,11 @@ public class VisitorPrenda implements Visitor {
     private final boolean es_mujer = PhoneData.getData().esMujer();
     private final boolean es_formal = PhoneData.getData().esFormal();
 
+    /**
+     * La API para ciudades chicas considera la temp min = temp max
+     * Realizar el visitor en base a la temperatura act o considerar el caso de min =! max para ciudades grandes?
+     * */
+
     @Override
     public void visitCampera(Campera c) {
         if(max < 20) {
@@ -119,7 +124,12 @@ public class VisitorPrenda implements Visitor {
     @Override
     public void visitBorcego(Borcego b) {
         if(!es_mujer){
-
+            if(max < 15){
+                b.setPuntaje(recomendable);
+            }
+            if(max < 10){
+                b.setPuntaje(obligatorio);
+            }
         }
     }
 
@@ -185,7 +195,9 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitZapatillaUrbana(ZapatillaUrbana z) {
+        if(!es_formal){
 
+        }
     }
 
     @Override
@@ -219,10 +231,14 @@ public class VisitorPrenda implements Visitor {
     @Override
     public void visitBabucha(Babucha b) {
         if(!es_formal){
-
+            if(min < 20){
+                b.setPuntaje(recomendable);
+            }
+            if(min < 10){
+                b.setPuntaje(obligatorio);
+            }
         }
     }
-
     @Override
     public void visitJean(Jean j) {
 
@@ -244,13 +260,21 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitMusculosa(Musculosa m) {
-        if(!es_formal){
-
+        if(!es_formal) {
+            if (min > 15){
+                m.setPuntaje(recomendable);
+            }
+            if (min > 20) {
+                m.setPuntaje(obligatorio);
+            }
         }
     }
 
     @Override
     public void visitTermica(Termica t) {
-
+        if(max < 15)
+            t.setPuntaje(recomendable);
+        if(max < 10)
+            t.setPuntaje(obligatorio);
     }
 }

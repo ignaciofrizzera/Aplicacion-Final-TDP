@@ -38,7 +38,7 @@ import java.util.ArrayList;
 
 public class ResultadosActivity extends AppCompatActivity {
 
-    private TextView cartel_info;
+    private TextView cartel_info,cartel_usar,cartel_recomendar;
     private final PhoneData data = PhoneData.getData();
     private final String ciudad = data.getCiudad()+" - ";
     private final String humedad = "Humedad: "+data.getHumedad()+"%";
@@ -62,6 +62,11 @@ public class ResultadosActivity extends AppCompatActivity {
      */
     private void startUp(){
         cartel_info = (TextView)findViewById(R.id.cartel_info);
+        cartel_usar = (TextView)findViewById(R.id.cartel_usar);
+        cartel_recomendar = (TextView)findViewById(R.id.cartel_recomendar);
+        cartel_usar.setText("Se debería usar: ");
+        cartel_recomendar.setText("Se recomienda usar: ");
+
         this.setTemp();
         String message = ciudad + temp + humedad;
         cartel_info.setText(message);
@@ -127,6 +132,25 @@ public class ResultadosActivity extends AppCompatActivity {
      * Evalua el puntaje de las prendas y en base a este las muestra.
      */
     private void displayClothes(){
-
+        for(Prenda p : lista_prendas){
+            if(this.asd(p)){
+                cartel_usar.setText(cartel_usar.getText() + " " +p.getNombre());
+            }
+            else{
+                cartel_recomendar.setText(cartel_usar.getText() + " " +p.getNombre());
+            }
+        }
     }
+
+    /**
+     * Solo dos posibles valores, 10 debe usar, 7.5 recomendado.
+     * @param p prenda a analizar el puntaje
+     * @return true si se debe usar, false si se recomienda usar.
+     */
+    private boolean asd(Prenda p){
+        if(p.getPuntaje() == 10)
+            return true;
+        return false;
+    }
+
 }
