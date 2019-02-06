@@ -35,6 +35,9 @@ import com.example.sandra.quemepongo.visitors.VisitorPrenda;
 
 import java.util.ArrayList;
 
+import static com.example.sandra.quemepongo.visitors.VisitorPrenda.obligatorio;
+import static com.example.sandra.quemepongo.visitors.VisitorPrenda.recomendable;
+
 
 public class ResultadosActivity extends AppCompatActivity {
 
@@ -134,10 +137,10 @@ public class ResultadosActivity extends AppCompatActivity {
     private void displayClothes(){
         /**Bad smell aca al comparar los puntajes? */
         for(Prenda p : lista_prendas){
-            if(p.getPuntaje() == 10){
+            if(p.getPuntaje() == obligatorio){
                 cartel_usar.setText(cartel_usar.getText() + " " +p.getNombre());
             }
-            if(p.getPuntaje() == 7.5){
+            if(p.getPuntaje() == recomendable){
                 cartel_recomendar.setText(cartel_recomendar.getText() + " " +p.getNombre());
             }
         }

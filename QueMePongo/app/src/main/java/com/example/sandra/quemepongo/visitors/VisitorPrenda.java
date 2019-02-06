@@ -33,13 +33,13 @@ public class VisitorPrenda implements Visitor {
 
     /**La forma en que se puntean las prendas es subjectiva a la opinion del autor.*/
 
-    /** TODO : SE PODRÍA USAR UN STATE.
+    /**
      * PUNTAJE = 10 - USAR SI O SI
      * PUNTAJE = 7.5 - RECOMENDABLE
      * */
 
-    private final double obligatorio = 10;
-    private final double recomendable = 7.5;
+    public static final double obligatorio = 10;
+    public static final double recomendable = 7.5;
 
     /**Para la altura que el visitor trabaje, la data va a estar inicializada ya.*/
     private final double max = PhoneData.getData().getTempMax();
