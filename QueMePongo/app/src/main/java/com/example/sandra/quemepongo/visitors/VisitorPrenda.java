@@ -219,14 +219,12 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitCamisaCorta(CamisaCorta c) {
-        if(es_formal){
-            if(max > 20){
-                c.setPuntaje(obligatorio);
-            }
-        }
-        else{
+        if(es_formal && !es_mujer){
             if(max > 20){
                 c.setPuntaje(recomendable);
+            }
+            if(max > 25){
+                c.setPuntaje(obligatorio);
             }
         }
     }
@@ -294,7 +292,7 @@ public class VisitorPrenda implements Visitor {
             if(max > 15) {
                 r.setPuntaje(recomendable);
             }
-            if(max > 25) {
+            if(max > 20) {
                 r.setPuntaje(obligatorio);
             }
         }

@@ -48,6 +48,8 @@ public class ResultadosActivity extends AppCompatActivity {
     private final ArrayList<Prenda> lista_prendas = new ArrayList<Prenda>();
     private String temp;
 
+    /**Se podría agregar un mensaje motivacional al mostrar los resultados de las prendas :)*/
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -138,7 +140,7 @@ public class ResultadosActivity extends AppCompatActivity {
         /**Bad smell aca al comparar los puntajes? */
         for(Prenda p : lista_prendas){
             if(p.getPuntaje() == obligatorio){
-                cartel_usar.setText(cartel_usar.getText() + " " +p.getNombre());
+                cartel_usar.setText(cartel_usar.getText() + ", " +p.getNombre());
             }
             if(p.getPuntaje() == recomendable){
                 cartel_recomendar.setText(cartel_recomendar.getText() + " " +p.getNombre());
