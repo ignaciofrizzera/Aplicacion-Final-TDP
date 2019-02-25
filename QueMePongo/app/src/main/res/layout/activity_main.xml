@@ -1,59 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lineal_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:minWidth="25dp"
+    android:orientation="vertical"
+    android:background="@color/DarkCyan"
+    android:paddingTop="32dp"
+    android:paddingLeft="74dp"
+    android:paddingRight="74dp"
     tools:context="actividades.MainActivity"
-    tools:layout_editor_absoluteY="81dp">
+    >
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="94dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:id="@+id/msg_bienvenio"
+        android:textSize="32dp"
+        android:textColor="@color/Black"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
         android:text="@string/msg_inicio"
         android:textAlignment="center"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        />
 
     <Button
         android:id="@+id/boton_inicio"
-        android:layout_width="wrap_content"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="64dp"
+        android:background="@color/Gold"
         android:onClick="sendMessage"
         android:text="@string/boton_inicio"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textAllCaps="false"
+        />
 
     <Button
         android:id="@+id/boton_info"
-        android:layout_width="wrap_content"
+        android:textSize="18dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
-        android:layout_marginBottom="268dp"
+        android:layout_marginTop="128dp"
+        android:background="@color/DeepPink"
         android:text="@string/informacion"
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/boton_inicio"
-        android:onClick="showInfo" />
+        android:textAllCaps="false"
+        android:onClick="showInfo"
+        />
 
-</android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.LinearLayoutCompat>

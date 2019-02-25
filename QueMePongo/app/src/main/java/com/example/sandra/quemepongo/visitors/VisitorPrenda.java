@@ -56,22 +56,20 @@ public class VisitorPrenda implements Visitor {
     @Override
     public void visitCampera(Campera c) {
         if(max < 15) {
+            c.setPuntaje(recomendable);
+        }
+        if(max < 10){
             c.setPuntaje(obligatorio);
         }
-        else {
-            if (max < 20 && max > 10) {
-                c.setPuntaje(recomendable);
-            }
-            if (humedad > 80) {
-                c.setPuntaje(recomendable);
-            }
+        if(humedad > 90){
+            c.setPuntaje(recomendable);
         }
     }
 
     @Override
     public void visitSweater(Sweater s) {
         if(es_formal){
-            if(max < 20){
+            if(max < 15){
                 s.setPuntaje(obligatorio);
             }
             if(max < 25 && max > 20){

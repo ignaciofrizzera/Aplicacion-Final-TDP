@@ -1,13 +1,12 @@
 package com.example.sandra.quemepongo.actividades;
 
+
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-
-import com.example.sandra.quemepongo.actividades.EstiloActivity;
 import com.example.sandra.quemepongo.data.PhoneData;
 
 /**
@@ -19,12 +18,10 @@ public class GeneroActivity extends AppCompatActivity {
     private CheckBox check_masculino;
     private Button siguiente;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(com.example.sandra.quemepongo.R.layout.activity_genero);
-
         this.startUp();
     }
 
