@@ -17,11 +17,11 @@ public class GeneroActivity extends AppCompatActivity {
     private CheckBox check_femenino;
     private CheckBox check_masculino;
     private Button siguiente;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(com.example.sandra.quemepongo.R.layout.activity_genero);
+
         this.startUp();
     }
 
@@ -32,7 +32,6 @@ public class GeneroActivity extends AppCompatActivity {
         check_femenino = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.boton_femenino);
         check_masculino = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.boton_masculino);
         siguiente = (Button) findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_genero);
-        siguiente.setEnabled(false);
     }
 
     /**
@@ -44,18 +43,18 @@ public class GeneroActivity extends AppCompatActivity {
         if(check_masculino.isChecked()) {
             check_femenino.setEnabled(false);
             PhoneData.getData().setMujer(false);
-            siguiente.setEnabled(true);
+            siguiente.setVisibility(View.VISIBLE);
         }
         else {
             if (check_femenino.isChecked()) {
                 check_masculino.setEnabled(false);
                 PhoneData.getData().setMujer(true);
-                siguiente.setEnabled(true);
+                siguiente.setVisibility(View.VISIBLE);
             }
             else{
                 check_masculino.setEnabled(true);
                 check_femenino.setEnabled(true);
-                siguiente.setEnabled(false);
+                siguiente.setVisibility(View.GONE);
             }
         }
     }

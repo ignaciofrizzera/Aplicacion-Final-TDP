@@ -1,67 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/layout_estilo"
+    android:orientation="vertical"
+    android:background="@color/LightGreen"
+    android:paddingTop="32dp"
+    android:paddingLeft="36dp"
+    android:paddingRight="36dp"
     tools:context="actividades.EstiloActivity">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="88dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="147dp"
-        android:layout_marginLeft="147dp"
-        android:layout_marginEnd="147dp"
-        android:layout_marginRight="147dp"
+        android:id="@+id/msg_estilo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="@string/estilo"
+        android:textColor="@color/Black"
         android:textAlignment="center"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="32dp"
+        />
 
-    <CheckBox
-        android:id="@+id/boton_casual"
-        android:layout_width="100dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="48dp"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_checkBox_estilo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:background="@color/LightGreen"
+        tools:context="actividades.EstiloActivity">
+        <CheckBox
+            android:id="@+id/boton_casual"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/casual"
+            android:textColor="@color/Black"
+            android:textAlignment="center"
+            android:onClick= "onCheckBoxClicked"
+            />
+
+        <CheckBox
+            android:id="@+id/boton_formal"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/formal"
+            android:textColor="@color/Black"
+            android:textAlignment="center"
+            android:onClick="onCheckBoxClicked" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_siguiente"
+        android:orientation="vertical"
+        android:background="@color/Black"
+        android:layout_marginTop="64dp"
         android:layout_marginLeft="48dp"
-        android:layout_marginTop="144dp"
-        android:clickable="false"
-        android:focusable="auto"
-        android:text="@string/casual"
-        android:textAlignment="center"
-        app:layout_constraintHorizontal_chainStyle="spread_inside"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick= "onCheckBoxClicked"  />
-
-    <CheckBox
-        android:id="@+id/boton_formal"
-        android:layout_width="100dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginEnd="48dp"
         android:layout_marginRight="48dp"
-        android:text="@string/formal"
-        android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:onClick="onCheckBoxClicked" />
+        tools:context="actividades.EstiloActivity">
 
-    <Button
-        android:id="@+id/boton_seguir_estilo"
-        android:layout_width="104dp"
-        android:layout_height="36dp"
-        android:layout_marginBottom="222dp"
-        android:text="@string/boton_seguir"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        android:onClick="nextActivity" />
+        <Button
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="1dp"
+            android:id="@+id/boton_seguir_estilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textColor="@color/Black"
+            android:background="@color/Blue"
+            android:text="@string/boton_seguir"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:onClick="nextActivity"
+            />
 
-</android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v7.widget.LinearLayoutCompat>

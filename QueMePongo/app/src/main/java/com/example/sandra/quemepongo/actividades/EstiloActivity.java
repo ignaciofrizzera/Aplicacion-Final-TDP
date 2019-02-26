@@ -34,7 +34,7 @@ public class EstiloActivity extends AppCompatActivity {
         check_casual = (CheckBox)findViewById(com.example.sandra.quemepongo.R.id.boton_casual);
         check_formal = (CheckBox)findViewById(com.example.sandra.quemepongo.R.id.boton_formal);
         siguiente = (Button)findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_estilo);
-        siguiente.setEnabled(false);
+
     }
 
     /**
@@ -46,18 +46,18 @@ public class EstiloActivity extends AppCompatActivity {
         if(check_formal.isChecked()) {
             check_casual.setEnabled(false);
             PhoneData.getData().setFormal(true);
-            siguiente.setEnabled(true);
+            siguiente.setVisibility(View.VISIBLE);
         }
         else {
             if (check_casual.isChecked()) {
                 check_formal.setEnabled(false);
                 PhoneData.getData().setFormal(false);
-                siguiente.setEnabled(true);
+                siguiente.setVisibility(View.VISIBLE);
             }
             else{
                 check_casual.setEnabled(true);
                 check_formal.setEnabled(true);
-                siguiente.setEnabled(false);
+                siguiente.setVisibility(View.GONE);
             }
         }
     }

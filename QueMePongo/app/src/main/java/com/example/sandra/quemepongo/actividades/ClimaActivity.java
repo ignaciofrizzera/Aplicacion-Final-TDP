@@ -26,7 +26,7 @@ public class ClimaActivity extends AppCompatActivity {
     private final String base_url = "http://api.openweathermap.org/data/2.5/weather?q=";
     private final String key_api = "&APPID=83ab580fe33631641111971b6488e1cd";
     private final String error_ciudad = "Ingrese una ciudad valida o verifique su conexión a internet";
-    private final String display_ciudad = "Ingrese su ciudad actual";
+    private final String ciudad_correcta = "Se ha ingresado una ciudad valida";
     private TextView cartel_ciudad;
     private EditText ciudad_ingresada;
     private Button boton_siguiente;
@@ -46,7 +46,6 @@ public class ClimaActivity extends AppCompatActivity {
         ciudad_ingresada = (EditText) findViewById(com.example.sandra.quemepongo.R.id.ingreso_ciudad);
         boton_siguiente = (Button) findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_clima);
         check_ciudad = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.check_ciudad);
-        cartel_ciudad.setText(display_ciudad);
         boton_siguiente.setEnabled(false);
     }
     /**
@@ -69,7 +68,7 @@ public class ClimaActivity extends AppCompatActivity {
                             aux.setTempMin(main_object.getDouble("temp_min"));
                             aux.setCiudad(response.getString("name"));
                             aux.setHumedad(main_object.getInt("humidity"));
-                            cartel_ciudad.setText("");
+                            cartel_ciudad.setText(ciudad_correcta);
                             boton_siguiente.setEnabled(true);
                             check_ciudad.setChecked(false);
                         } catch (JSONException e) {

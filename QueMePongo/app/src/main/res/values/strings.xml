@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Que Me Pongo</string>
-    <string name="msg_inicio"><u>Bienvenido</u></string>
+    <string name="msg_inicio">Bienvenido</string>
     <string name="boton_inicio">Comenzar</string>
     <string name="msg_testing">MENSAJE TESTEO<br />HOLa</string>
     <string name="femenino">Femenino</string>
@@ -13,6 +13,6 @@
     <string name="informacion">Acerca de</string>
     <string name="mensaje_informacion">Proyecto desarrolado por Ignacio Frizzera, estudiante de Ingenieria en Sistemas de Información en la Universidad Nacional del Sur, LU: 117815.</string>
     <string name="mensaje_logo">Logo UNS</string>
-    <string name="ingrese_ciudad">Ingrese su ciudad</string>
+    <string name="ingrese_ciudad">Ingrese su ciudad actual, evitando los tildes</string>
     <string name="ciudad">Ciudad:</string>
 </resources>
