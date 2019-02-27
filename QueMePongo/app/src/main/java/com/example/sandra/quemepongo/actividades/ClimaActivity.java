@@ -46,7 +46,6 @@ public class ClimaActivity extends AppCompatActivity {
         ciudad_ingresada = (EditText) findViewById(com.example.sandra.quemepongo.R.id.ingreso_ciudad);
         boton_siguiente = (Button) findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_clima);
         check_ciudad = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.check_ciudad);
-        boton_siguiente.setEnabled(false);
     }
     /**
      *
@@ -69,7 +68,7 @@ public class ClimaActivity extends AppCompatActivity {
                             aux.setCiudad(response.getString("name"));
                             aux.setHumedad(main_object.getInt("humidity"));
                             cartel_ciudad.setText(ciudad_correcta);
-                            boton_siguiente.setEnabled(true);
+                            boton_siguiente.setVisibility(View.VISIBLE);
                             check_ciudad.setChecked(false);
                         } catch (JSONException e) {
                             e.printStackTrace();
@@ -81,7 +80,7 @@ public class ClimaActivity extends AppCompatActivity {
                 check_ciudad.setChecked(false);
                 cartel_ciudad.setText(error_ciudad);
                 /**Caso que ingresen una ciudad invalida luego de haber ingresado una valida*/
-                boton_siguiente.setEnabled(false);
+                boton_siguiente.setVisibility(View.GONE);
             }
         });
         RequestQueue queue = Volley.newRequestQueue(this);

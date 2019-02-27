@@ -877,10 +877,12 @@ id invisible
 id italic
 id layout_checkBox_estilo
 id layout_checkBox_genero
+id layout_clima
 id layout_estilo
 id layout_genero
 id layout_main
 id layout_siguiente
+id layout_siguiente_clima
 id left
 id line1
 id line3
@@ -905,7 +907,6 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
-id relative_layout_clima
 id right
 id right_icon
 id right_side
