@@ -1,43 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/layout_info"
+    android:orientation="vertical"
+    android:background="@color/LightGreen"
+    android:padding="32dp"
     tools:context="actividades.InfoActivity">
 
-    <TextView
-        android:id="@+id/informacion"
-        android:layout_width="277dp"
-        android:layout_height="185dp"
-        android:text="@string/mensaje_informacion"
-        android:textAlignment="gravity"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.049" />
+        <TextView
+            android:id="@+id/informacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mensaje_informacion"
+            android:textColor="@color/Black"
+            android:textSize="18dp"
+            />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="95dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginLeft="104dp"
-        android:layout_marginTop="103dp"
-        android:layout_marginRight="34dp"
-        android:layout_marginEnd="34dp"
-        android:layout_marginBottom="38dp"
-        android:contentDescription="@string/mensaje_logo"
-        android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/informacion"
-        app:layout_constraintVertical_bias="0.841"
-        app:srcCompat="@drawable/logo_uns" />
+        <TextView
+            android:id="@+id/cartel_uns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/cartel_uns"
+            android:textColor="@color/Black"
+            android:textSize="18dp"
+            />
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            android:id="@+id/link_uns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:layout_marginLeft="24dp"
+            android:text="@string/link_uns"
+            android:textSize="18dp"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:id="@+id/cartel_dcic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/cartel_dcic"
+            android:textColor="@color/Black"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/link_dcic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:layout_marginLeft="24dp"
+            android:text="@string/link_dcic"
+            android:textSize="18dp"
+            android:autoLink="web"
+            />
+
+        <TextView
+            android:id="@+id/cartel_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/cartel_email"
+            android:textColor="@color/Black"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:layout_marginLeft="24dp"
+            android:text="@string/email"
+            android:textSize="18dp"
+            android:autoLink="email"
+            />
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>

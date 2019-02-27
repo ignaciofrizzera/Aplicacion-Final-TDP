@@ -41,7 +41,7 @@ import static com.example.sandra.quemepongo.visitors.VisitorPrenda.recomendable;
 
 public class ResultadosActivity extends AppCompatActivity {
 
-    private TextView cartel_info,cartel_usar,cartel_recomendar;
+    private TextView cartel_info,deberia_ropa,recomienda_ropa;
     private final PhoneData data = PhoneData.getData();
     private final String ciudad = data.getCiudad()+" - ";
     private final String humedad = "Humedad: "+data.getHumedad()+"%";
@@ -58,8 +58,6 @@ public class ResultadosActivity extends AppCompatActivity {
         this.startUp();
 
         this.setScores();
-
-        this.displayClothes();
     }
 
     /**
@@ -67,10 +65,8 @@ public class ResultadosActivity extends AppCompatActivity {
      */
     private void startUp(){
         cartel_info = (TextView)findViewById(R.id.cartel_info);
-        cartel_usar = (TextView)findViewById(R.id.cartel_usar);
-        cartel_recomendar = (TextView)findViewById(R.id.cartel_recomendar);
-        cartel_usar.setText("Se debería usar: ");
-        cartel_recomendar.setText("Se recomienda usar: ");
+        deberia_ropa = (TextView)findViewById(R.id.deberia_ropa);
+        recomienda_ropa = (TextView)findViewById(R.id.recomienda_ropa);
 
         this.setTemp();
         String message = ciudad + temp + humedad;
@@ -84,12 +80,17 @@ public class ResultadosActivity extends AppCompatActivity {
     private void setTemp(){
         double temp_min = data.getTempMin();
         double temp_max = data.getTempMax();
+        double temp_act = data.getTempAct();
+
+        String s_min = String.format("%.1f",temp_min);
+        String s_max = String.format("%.1f",temp_max);
+        String s_act = String.format("%.1f",temp_act);
 
         if(temp_min != temp_max){
-            temp = "Temp. min: "+temp_min+" Temp. max: "+temp_max+" - ";
+            temp = "Temp. min: "+s_min+" Temp. max: "+s_max+"°C - ";
         }
         else{
-            temp = "Temperatura: "+data.getTempAct()+" - ";
+            temp = "Temperatura: "+s_act+"°C - ";
         }
     }
 
@@ -101,6 +102,15 @@ public class ResultadosActivity extends AppCompatActivity {
         this.setUpList();
         for(Prenda e : lista_prendas) {
             e.accept(visitor_prendas);
+
+
+            /**Agrego esto aca, en vez de tener el otro método que tenía y encima recorrer la lista 2 veces.*/
+            if(e.getPuntaje() == obligatorio){
+                deberia_ropa.setText(deberia_ropa.getText() + e.getNombre() + ", ");
+            }
+            if(e.getPuntaje() == recomendable){
+                recomienda_ropa.setText(recomienda_ropa.getText() + e.getNombre()+ ", ");
+            }
         }
     }
 
@@ -133,19 +143,4 @@ public class ResultadosActivity extends AppCompatActivity {
         lista_prendas.add(new Musculosa());
         lista_prendas.add(new Termica());
     }
-    /**
-     * Evalua el puntaje de las prendas y en base a este las muestra.
-     */
-    private void displayClothes(){
-        /**Bad smell aca al comparar los puntajes? */
-        for(Prenda p : lista_prendas){
-            if(p.getPuntaje() == obligatorio){
-                cartel_usar.setText(cartel_usar.getText() + ", " +p.getNombre());
-            }
-            if(p.getPuntaje() == recomendable){
-                cartel_recomendar.setText(cartel_recomendar.getText() + " " +p.getNombre());
-            }
-        }
-    }
-
 }

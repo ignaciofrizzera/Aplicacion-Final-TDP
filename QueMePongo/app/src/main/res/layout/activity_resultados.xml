@@ -1,56 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/layout_resultados"
+    android:orientation="vertical"
+    android:background="@color/LightGreen"
+    android:paddingTop="32dp"
     tools:context="actividades.ResultadosActivity">
 
-    <TextView
-        android:id="@+id/cartel_info"
-        android:layout_width="297dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:layout_marginBottom="405dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        <TextView
+            android:id="@+id/cartel_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="@color/Black"
+            />
+        <TextView
+            android:id="@+id/cartel_usar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/debe_usar"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:layout_marginTop="48dp"
+            android:background="@color/Aquamarine"
+            />
 
-    <TextView
-        android:id="@+id/cartel_usar"
-        android:layout_width="297dp"
-        android:layout_height="151dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginLeft="44dp"
-        android:layout_marginTop="71dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginRight="43dp"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintBottom_toTopOf="@+id/cartel_recomendar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cartel_info" />
+        <TextView
+            android:id="@+id/deberia_ropa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/Black"
+            />
 
-    <TextView
-        android:id="@+id/cartel_recomendar"
-        android:layout_width="300dp"
-        android:layout_height="158dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginLeft="44dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="43dp"
-        android:layout_marginRight="43dp"
-        android:layout_marginBottom="43dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cartel_usar" />
+        <TextView
+            android:id="@+id/cartel_recomendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recomienda_usar"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:layout_marginTop="48dp"
+            android:background="@color/Aquamarine"
+            />
 
-</android.support.constraint.ConstraintLayout>
+        <TextView
+            android:id="@+id/recomienda_ropa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/Black"
+            />
+
+        <TextView
+            android:id="@+id/cartel_gracias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_gracias"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/Black"
+            android:layout_marginTop="48dp"
+            />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

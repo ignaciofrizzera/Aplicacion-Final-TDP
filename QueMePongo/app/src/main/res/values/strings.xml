@@ -15,4 +15,13 @@
     <string name="mensaje_logo">Logo UNS</string>
     <string name="ingrese_ciudad">Ingrese su ciudad actual, evitando los tildes</string>
     <string name="ciudad">Ciudad:</string>
+    <string name="debe_usar"><u>Se deberia usar</u>:</string>
+    <string name="recomienda_usar"><u>Se recomienda usar</u>:</string>
+    <string name="msg_gracias">Que tenga un buen día!</string>
+    <string name="link_dcic">https://cs.uns.edu.ar</string>
+    <string name="link_uns">https://www.uns.edu.ar/</string>
+    <string name="cartel_uns">• Universidad Nacional del Sur</string>
+    <string name="cartel_dcic">• Departamento de Ciencias e Ingieniería de la Computación</string>
+    <string name="cartel_email">• Email</string>
+    <string name="email">ignaciofrizzera@gmail.com</string>
 </resources>
