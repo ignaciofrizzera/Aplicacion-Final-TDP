@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,85 +11,86 @@
     android:paddingRight="36dp"
     tools:context="actividades.EstiloActivity">
 
-    <TextView
-        android:id="@+id/msg_estilo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/estilo"
-        android:textColor="@color/Black"
-        android:textAlignment="center"
-        android:textSize="32dp"
-        />
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/layout_checkBox_estilo"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="32dp"
-        android:background="@color/LightGreen"
-        tools:context="actividades.EstiloActivity">
-        <CheckBox
-            android:id="@+id/boton_casual"
-            android:textSize="18dp"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/msg_estilo"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="@string/estilo"
+            android:textColor="@color/Black"
+            android:textAlignment="center"
+            android:textSize="32dp"
+                />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_checkBox_estilo"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:text="@string/casual"
-            android:textColor="@color/Black"
-            android:textAlignment="center"
-            android:onClick= "onCheckBoxClicked"
-            />
+            android:layout_marginTop="32dp"
+            android:background="@color/LightGreen"
+            tools:context="actividades.EstiloActivity">
 
-        <CheckBox
-            android:id="@+id/boton_formal"
-            android:textSize="18dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:text="@string/formal"
-            android:textColor="@color/Black"
-            android:textAlignment="center"
-            android:onClick="onCheckBoxClicked" />
+                <CheckBox
+                    android:id="@+id/boton_casual"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:text="@string/casual"
+                    android:textColor="@color/Black"
+                    android:textAlignment="center"
+                    android:onClick= "onCheckBoxClicked"
+                        />
 
-    </RelativeLayout>
+                <CheckBox
+                    android:id="@+id/boton_formal"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/formal"
+                    android:textColor="@color/Black"
+                    android:textAlignment="center"
+                    android:onClick="onCheckBoxClicked"
+                        />
 
-    <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/layout_siguiente"
-        android:orientation="vertical"
-        android:background="@color/Black"
-        android:layout_marginTop="64dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginRight="48dp"
-        tools:context="actividades.EstiloActivity">
+        </RelativeLayout>
 
-        <Button
-            android:layout_marginRight="1dp"
-            android:layout_marginTop="1dp"
-            android:layout_marginLeft="1dp"
-            android:layout_marginBottom="1dp"
-            android:id="@+id/boton_seguir_estilo"
+        <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:textColor="@color/Black"
-            android:background="@color/Blue"
-            android:text="@string/boton_seguir"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:onClick="nextActivity"
-            />
+            android:id="@+id/layout_siguiente"
+            android:orientation="vertical"
+            android:background="@color/Black"
+            android:layout_marginTop="64dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            tools:context="actividades.EstiloActivity">
 
-    </android.support.v7.widget.LinearLayoutCompat>
+                <Button
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:id="@+id/boton_seguir_estilo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:textColor="@color/Black"
+                    android:background="@color/Blue"
+                    android:text="@string/boton_seguir"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:onClick="nextActivity"
+                        />
+
+         </android.support.v7.widget.LinearLayoutCompat>
 
 </android.support.v7.widget.LinearLayoutCompat>

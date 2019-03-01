@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -16,7 +15,8 @@
             android:layout_height="wrap_content"
             android:textSize="24dp"
             android:textColor="@color/Black"
-            />
+                />
+
         <TextView
             android:id="@+id/cartel_usar"
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:textColor="@color/Black"
             android:layout_marginTop="48dp"
             android:background="@color/Aquamarine"
-            />
+                />
 
         <TextView
             android:id="@+id/deberia_ropa"
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:textSize="18dp"
             android:textColor="@color/Black"
-            />
+                />
 
         <TextView
             android:id="@+id/cartel_recomendar"
@@ -47,7 +47,7 @@
             android:textColor="@color/Black"
             android:layout_marginTop="48dp"
             android:background="@color/Aquamarine"
-            />
+                />
 
         <TextView
             android:id="@+id/recomienda_ropa"
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:textSize="18dp"
             android:textColor="@color/Black"
-            />
+                />
 
         <TextView
             android:id="@+id/cartel_gracias"
@@ -66,7 +66,7 @@
             android:textSize="18dp"
             android:textColor="@color/Black"
             android:layout_marginTop="48dp"
-            />
+                />
 
 
 </android.support.v7.widget.LinearLayoutCompat>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/layout_info"
     android:orientation="vertical"
     android:background="@color/LightGreen"
-    android:padding="32dp"
+    android:paddingTop="32dp"
+    android:paddingLeft="16dp"
     tools:context="actividades.InfoActivity">
 
         <TextView
@@ -17,7 +17,7 @@
             android:text="@string/mensaje_informacion"
             android:textColor="@color/Black"
             android:textSize="18dp"
-            />
+                />
 
         <TextView
             android:id="@+id/cartel_uns"
@@ -27,7 +27,7 @@
             android:text="@string/cartel_uns"
             android:textColor="@color/Black"
             android:textSize="18dp"
-            />
+                />
 
         <TextView
             android:id="@+id/link_uns"
@@ -38,7 +38,7 @@
             android:text="@string/link_uns"
             android:textSize="18dp"
             android:autoLink="web"
-            />
+                />
 
         <TextView
             android:id="@+id/cartel_dcic"
@@ -48,7 +48,7 @@
             android:text="@string/cartel_dcic"
             android:textColor="@color/Black"
             android:textSize="18dp"
-            />
+                />
 
         <TextView
             android:id="@+id/link_dcic"
@@ -59,7 +59,7 @@
             android:text="@string/link_dcic"
             android:textSize="18dp"
             android:autoLink="web"
-            />
+                />
 
         <TextView
             android:id="@+id/cartel_email"
@@ -69,7 +69,7 @@
             android:text="@string/cartel_email"
             android:textColor="@color/Black"
             android:textSize="18dp"
-            />
+                />
 
         <TextView
             android:id="@+id/email"
@@ -80,7 +80,7 @@
             android:text="@string/email"
             android:textSize="18dp"
             android:autoLink="email"
-            />
+                />
 
 
 

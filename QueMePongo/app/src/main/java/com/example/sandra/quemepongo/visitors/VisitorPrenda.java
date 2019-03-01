@@ -66,6 +66,7 @@ public class VisitorPrenda implements Visitor {
         }
     }
 
+
     @Override
     public void visitSweater(Sweater s) {
         if(es_formal){
