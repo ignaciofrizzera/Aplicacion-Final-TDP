@@ -19,7 +19,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- *
+ * Clase/Actividad destinada a obtener los datos climáticos a partir de la ciudad que ingrese el usuario.
  */
 public class ClimaActivity extends AppCompatActivity {
 
@@ -39,7 +39,7 @@ public class ClimaActivity extends AppCompatActivity {
     }
 
     /**
-     *
+     * Inicializa la actividad y sus elementos.
      */
     private void startUp(){
         cartel_ciudad = (TextView) findViewById(com.example.sandra.quemepongo.R.id.ciudad_text);
@@ -48,7 +48,10 @@ public class ClimaActivity extends AppCompatActivity {
         check_ciudad = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.check_ciudad);
     }
     /**
-     *
+     * Método encargado de verificar si la ciudad ingresada por el usuario es válida o no.
+     * En el caso de que sea válida se procede a trabajar con el objeto JSon para obtener los datos climáticos
+     * Obtenidos apartir de la API de open weather.
+     * Caso que la ciudad sea invalida se le notifica al usuario.
      * @param view
      */
     public void onCheck(View view){
@@ -59,7 +62,7 @@ public class ClimaActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            JSONObject main_object = response.getJSONObject("main"); //unico objeto que me interesa
+                            JSONObject main_object = response.getJSONObject("main");
                             PhoneData aux = PhoneData.getData();
 
                             aux.setTempAct(main_object.getDouble("temp"));
@@ -88,7 +91,7 @@ public class ClimaActivity extends AppCompatActivity {
     }
 
     /**
-     *
+     * Listener del boton para avanzar de actividad.
      * @param view
      */
     public void nextActivity(View view){

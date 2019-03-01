@@ -2,14 +2,13 @@ package com.example.sandra.quemepongo.prendas;
 
 import com.example.sandra.quemepongo.visitors.Visitor;
 
-import java.util.ArrayList;
-
 /**
  * Abstraccion de una prenda de ropa.
  */
 public abstract class Prenda {
     protected double puntaje;
     protected String nombre;
+
     /**
      * Devuelve el puntaje asignado a una prenda.
      * @return puntaje de una prenda.
@@ -34,5 +33,9 @@ public abstract class Prenda {
         return nombre;
     }
 
+    /**
+     * Método que es parte del patrón de diseño Visitor.
+     * @param v visitor el cuál será aceptado por la prenda específica.
+     */
     public abstract void accept(Visitor v);
 }

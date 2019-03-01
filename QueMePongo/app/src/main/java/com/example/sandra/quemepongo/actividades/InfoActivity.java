@@ -3,6 +3,9 @@ package com.example.sandra.quemepongo.actividades;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/**
+ * Clase/Actividad encargada de mostrar mi información y datos.
+ */
 public class InfoActivity extends AppCompatActivity {
 
     @Override

@@ -50,7 +50,7 @@ public class VisitorPrenda implements Visitor {
 
     /**
      * La API para ciudades chicas considera la temp min = temp max
-     * Realizar el visitor en base a la temperatura act o considerar el caso de min =! max para ciudades grandes?
+     * Se realizó el cálculo de los puntajes en base a la temperatura máxima, ya esta sea igual a la minima o distinta.
      * */
 
     @Override

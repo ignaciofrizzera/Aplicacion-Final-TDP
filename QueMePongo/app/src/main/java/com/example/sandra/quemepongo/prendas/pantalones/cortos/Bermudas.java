@@ -5,7 +5,7 @@ import com.example.sandra.quemepongo.visitors.Visitor;
 
 
 /**
- * Clase destinada a representar el pantalon corto tipo bermuda.
+ * Clase destinada a representar el pantalón corto tipo bermuda.
  */
 public class Bermudas extends Pantalon {
 

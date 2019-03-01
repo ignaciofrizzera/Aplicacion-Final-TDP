@@ -7,6 +7,8 @@ import android.view.View;
 
 /**
  * Clase/Actividad principal. Primer pantalla de la aplicacion.
+ * Se encarga de mostrar el menú donde se puede comenzar al ejecución de la actividad
+ * o se puede ver la información personal mía.
  */
 public class MainActivity extends AppCompatActivity {
 
@@ -27,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     * Listener para mostrar la información personal.
+     * @param view
+     */
     public void showInfo(View view){
         Intent intent = new Intent(this,InfoActivity.class);
         startActivity(intent);

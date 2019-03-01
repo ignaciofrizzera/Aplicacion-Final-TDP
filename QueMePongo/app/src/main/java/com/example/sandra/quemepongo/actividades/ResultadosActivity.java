@@ -38,7 +38,10 @@ import java.util.ArrayList;
 import static com.example.sandra.quemepongo.visitors.VisitorPrenda.obligatorio;
 import static com.example.sandra.quemepongo.visitors.VisitorPrenda.recomendable;
 
-
+/**
+ * Clase/Actividad destinada a setear los puntajes de las prendas en base a los datos climáticos y mostrar
+ * las prendas a usar por pantalla.
+ */
 public class ResultadosActivity extends AppCompatActivity {
 
     private TextView cartel_info,deberia_ropa,recomienda_ropa;
@@ -47,8 +50,6 @@ public class ResultadosActivity extends AppCompatActivity {
     private final String humedad = "Humedad: "+data.getHumedad()+"%";
     private final ArrayList<Prenda> lista_prendas = new ArrayList<Prenda>();
     private String temp;
-
-    /**Se podría agregar un mensaje motivacional al mostrar los resultados de las prendas :)*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,7 +76,8 @@ public class ResultadosActivity extends AppCompatActivity {
 
     /**
      * Setea la temperatura a mostrar.
-     * Este metodo se debe a que la API muestra misma tempmin y tempmax cuando una ciudad es pequeña.
+     * Este metodo se debe a que la API muestra misma tempmin y tempmax cuando una ciudad es pequeña
+     * o no esta totalmente contemplada por esta.
      */
     private void setTemp(){
         double temp_min = data.getTempMin();
@@ -96,6 +98,7 @@ public class ResultadosActivity extends AppCompatActivity {
 
     /**
      * Setea el puntaje de todas las prendas.
+     * Y en base a los puntajes se van mostrando los nombres de las prendas por pantalla.
      */
     private void setScores(){
         Visitor visitor_prendas = new VisitorPrenda();

@@ -4,7 +4,7 @@ import com.example.sandra.quemepongo.visitors.Visitor;
 
 
 /**
- * Clase destinada a la representacion de una bufanda.
+ * Clase destinada a la representación de una bufanda.
  */
 public class Bufanda extends Accesorios {
 

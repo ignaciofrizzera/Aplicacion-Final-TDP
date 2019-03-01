@@ -10,13 +10,14 @@ import android.widget.CheckBox;
 import com.example.sandra.quemepongo.data.PhoneData;
 
 /**
- * Clase/Actividad encargada de capturar el genero del usuario.
+ * Clase/Actividad encargada de capturar el género del usuario.
  */
 public class GeneroActivity extends AppCompatActivity {
 
     private CheckBox check_femenino;
     private CheckBox check_masculino;
     private Button siguiente;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +37,7 @@ public class GeneroActivity extends AppCompatActivity {
 
     /**
      * Listener de los checkbox.
-     * Se encarga de capturar el genero que ingreso el usuario.
+     * Se encarga de capturar el género que ingresó el usuario.
      * @param view
      */
     public void onCheckBoxClicked(View view){
@@ -60,7 +61,7 @@ public class GeneroActivity extends AppCompatActivity {
     }
 
     /**
-     * Listener del boton para avanzar de actividad.
+     * Listener del botón para avanzar de actividad.
      * @param view
      */
     public void nextActivity(View view){

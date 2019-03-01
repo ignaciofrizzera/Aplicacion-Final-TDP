@@ -39,7 +39,7 @@ public class EstiloActivity extends AppCompatActivity {
 
     /**
      * Listener de los checkbox.
-     * Se encarga de capturar la opcion elegida por el usuario respecto al estilo de vestir.
+     * Se encarga de capturar la opción elegida por el usuario respecto al estilo de vestir.
      * @param view
      */
     public void onCheckBoxClicked(View view){

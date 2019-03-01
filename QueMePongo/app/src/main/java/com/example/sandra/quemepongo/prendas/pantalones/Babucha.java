@@ -4,7 +4,7 @@ import com.example.sandra.quemepongo.visitors.Visitor;
 
 
 /**
- * Clase destinada a representar el pantalon tipo babucha.
+ * Clase destinada a representar el pantalón tipo babucha.
  */
 public class Babucha extends Pantalon {
 

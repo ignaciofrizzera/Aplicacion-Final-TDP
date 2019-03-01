@@ -32,7 +32,7 @@ public class PhoneData {
     }
 
     /**
-     * Retorna el genero del usuario.
+     * Retorna el genero del usuario, donde este puede ser femenino o másculino.
      * @return genero del usuario.
      */
     public boolean esMujer() {
@@ -40,7 +40,7 @@ public class PhoneData {
     }
 
     /**
-     * Retorna el estilo de vestir del usuario.
+     * Retorna el estilo de vestir del usuario, donde este puede ser formal o casual.
      * @return estilo de vestir del usuario.
      */
     public boolean esFormal(){
@@ -48,40 +48,40 @@ public class PhoneData {
     }
 
     /**
-     *
-     * @return
+     * Retorna la temperatura actual de la ciudad ignresada por el usuario.
+     * @return temperatura actual de la ciudad ingresada por el usuario.
      */
     public double getTempAct(){
         return temp_actual;
     }
 
     /**
-     *
-     * @return
+     * Retorna la temperatura mínima de la ciudad ignresada por el usuario.
+     * @return temperatura mínima de la ciudad ingresada por el usuario.
      */
     public double getTempMin(){
         return temp_min;
     }
 
     /**
-     *
-     * @return
+     * Retorna la temperatura máxima de la ciudad ignresada por el usuario.
+     * @return temperatura máxima de la ciudad ingresada por el usuario.
      */
     public double getTempMax(){
         return temp_max;
     }
 
     /**
-     *
-     * @return
+     * Retorna el nombre de la ciudad ingresada por el usuario.
+     * @return el nombre de la ciudad ingresada por el usuario.
      */
     public String getCiudad(){
         return ciudad;
     }
 
     /**
-     *
-     * @return
+     * Retorna el porcentaje de la humedad de la ciudad ingresada por el usuario.
+     * @return porcentaje de la humedad de la ciudad ingresada por el usuario.
      */
     public int getHumedad(){
         return humedad;
@@ -96,7 +96,7 @@ public class PhoneData {
     }
 
     /**
-     * Setea el genero del usuario. Puede ser femenino o masculino.
+     * Setea el genero del usuario. Puede ser femenino o másculino.
      * @param es_mujer genero del usuario.
      */
     public void setMujer(boolean es_mujer){
@@ -104,40 +104,40 @@ public class PhoneData {
     }
 
     /**
-     *
-     * @param temp_min
+     * Setea la temperatura mínima de la ciuddad ingresada por el usuario.
+     * @param temp_min temperatura mínima de la ciudad ingresada por el usuario.
      */
     public void setTempMin(double temp_min){
         this.temp_min = temp_min -  273.15;
     }
 
     /**
-     *
-     * @param temp_max
+     * Setea la temperatura máxima de la ciudad ingresada por el usuario.
+     * @param temp_max temperatura máxima de la ciudad ingresada por el usuario.
      */
     public void setTempMax(double temp_max){
         this.temp_max = temp_max -  273.15;
     }
 
     /**
-     *
-     * @param temp_actual
+     * Setea la temperatura actual de la ciudad ingresada por el usuario.
+     * @param temp_actual temperatura actual de la ciudad ingresada por el usuario.
      */
     public void setTempAct(double temp_actual){
         this.temp_actual = temp_actual -  273.15;
     }
 
     /**
-     *
-     * @param ciudad
+     * Setea el nombre de la ciudad ingresada por el usuario.
+     * @param ciudad nombre de la ciudad ingresada por el usuario.
      */
     public void setCiudad(String ciudad){
         this.ciudad = ciudad;
     }
 
     /**
-     *
-     * @param humedad
+     * Setea el porcentaje de humedad de la ciudad ingresada por el usuario.
+     * @param humedad porcentaje de humedad de la ciudad ingresada por el usuario.
      */
     public void setHumedad(int humedad){
         this.humedad = humedad;

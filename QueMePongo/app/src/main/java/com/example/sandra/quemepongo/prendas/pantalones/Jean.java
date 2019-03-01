@@ -4,7 +4,7 @@ import com.example.sandra.quemepongo.visitors.Visitor;
 
 
 /**
- * Clase destinada a representar el pantalon tipo jean.
+ * Clase destinada a representar el pantalón tipo jean.
  */
 public class Jean extends Pantalon {
 
