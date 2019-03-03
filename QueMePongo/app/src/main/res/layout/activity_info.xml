@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/layout_info"
     android:orientation="vertical"
-    android:background="@color/LightGreen"
+    android:background="@color/colorPrimary"
     android:paddingTop="32dp"
     android:paddingLeft="16dp"
     tools:context="actividades.InfoActivity">
@@ -82,6 +82,14 @@
             android:autoLink="email"
                 />
 
+        <ImageView
+            android:id="@+id/logo_universidad"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_uns"
+                />
 
 
 </android.support.v7.widget.LinearLayoutCompat>

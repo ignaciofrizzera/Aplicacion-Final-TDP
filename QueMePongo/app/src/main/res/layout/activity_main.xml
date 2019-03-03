@@ -5,22 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/MediumAquamarine"
+    android:background="@drawable/main_background"
     android:paddingTop="32dp"
     android:paddingLeft="74dp"
     android:paddingRight="74dp"
     tools:context="actividades.MainActivity">
-
-        <TextView
-            android:id="@+id/msg_bienvenio"
-            android:textSize="32dp"
-            android:textColor="@color/Black"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:layout_marginTop="16dp"
-            android:text="@string/msg_inicio"
-            android:textAlignment="center"
-                />
 
         <Button
             android:id="@+id/boton_inicio"
@@ -28,7 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="64dp"
-            android:background="@color/Aquamarine"
+            android:textColor="@color/White"
+            android:background="@color/colorPrimary"
             android:onClick="sendMessage"
             android:text="@string/boton_inicio"
             android:textAlignment="center"
@@ -41,7 +31,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="128dp"
-            android:background="@color/Aquamarine"
+            android:textColor="@color/White"
+            android:background="@color/colorPrimary"
             android:text="@string/informacion"
             android:textAlignment="center"
             android:textAllCaps="false"

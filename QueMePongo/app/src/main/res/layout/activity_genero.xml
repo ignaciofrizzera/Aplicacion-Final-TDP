@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:id="@+id/layout_genero"
     android:orientation="vertical"
-    android:background="@color/LightGreen"
+    android:background="@drawable/genero_background"
     android:paddingTop="32dp"
     android:paddingLeft="36dp"
     android:paddingRight="36dp"
@@ -29,7 +29,6 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_marginTop="32dp"
-            android:background="@color/LightGreen"
             tools:context="actividades.GeneroActivity">
 
                 <CheckBox
@@ -70,8 +69,8 @@
             android:orientation="vertical"
             android:background="@color/Black"
             android:layout_marginTop="64dp"
-            android:layout_marginLeft="48dp"
-            android:layout_marginRight="48dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
             tools:context="actividades.GeneroActivity">
 
                 <Button
@@ -83,8 +82,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:visibility="gone"
-                    android:textColor="@color/Black"
-                    android:background="@color/Blue"
+                    android:textColor="@color/White"
+                    android:background="@color/colorPrimary"
                     android:text="@string/boton_seguir"
                     android:textAlignment="center"
                     android:textAllCaps="false"

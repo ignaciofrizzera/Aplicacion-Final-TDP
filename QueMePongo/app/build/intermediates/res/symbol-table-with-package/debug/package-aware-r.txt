@@ -769,8 +769,13 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable clima_background
+drawable estilo_background
+drawable genero_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logo_uns
+drawable main_background
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -897,9 +902,9 @@ id link_dcic
 id link_uns
 id listMode
 id list_item
+id logo_universidad
 id message
 id middle
-id msg_bienvenio
 id msg_estilo
 id msg_sexo
 id multiply
@@ -1082,7 +1087,6 @@ string masculino
 string mensaje_informacion
 string mensaje_logo
 string msg_gracias
-string msg_inicio
 string msg_testing
 string recomienda_usar
 string search_menu_title
