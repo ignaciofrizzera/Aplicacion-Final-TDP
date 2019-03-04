@@ -31,7 +31,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".actividades.GeneroActivity" />
         </activity>
-        <activity android:name=".actividades.ClimaActivity" />
+        <activity android:name=".actividades.ClimaActivity" >
+            android:parentActivityName=".GeneroActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".actividades.EstiloActivity" />
+        </activity>
         <activity android:name=".actividades.InfoActivity">
             android:parentActivityName=".MainActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->

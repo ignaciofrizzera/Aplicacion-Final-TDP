@@ -4,6 +4,14 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_swipe_left_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_swipe_left_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_card_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_card_enter.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -36,6 +44,10 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_in_out_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_in_out_exit.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
     },
@@ -46,6 +58,10 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_text_material.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_slide_up_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_slide_up_exit.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -64,12 +80,12 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -100,24 +116,24 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\096fd2b5d97322669e136dc4c68e7cf5\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
@@ -142,6 +158,10 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_zoom_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_zoom_exit.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -220,16 +240,16 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\color-v23\\abc_tint_default.xml"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_clear_material.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_out_bottom.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_small_material.xml.flat",
@@ -242,6 +262,10 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_split_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_split_enter.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -304,6 +328,10 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\anim\\abc_popup_exit.xml"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_spin_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_spin_enter.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -312,12 +340,16 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_genero.xml.flat",
-        "source": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\src\\main\\res\\layout\\activity_genero.xml"
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_windmill_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_windmill_exit.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_genero.xml.flat",
+        "source": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\src\\main\\res\\layout\\activity_genero.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -372,6 +404,10 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_slide_left_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_slide_left_exit.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\096fd2b5d97322669e136dc4c68e7cf5\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
@@ -386,6 +422,10 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\096fd2b5d97322669e136dc4c68e7cf5\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_zoom_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_zoom_enter.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -410,6 +450,10 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_slide_down_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_slide_down_enter.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -440,6 +484,10 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_slide_left_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_slide_left_enter.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
@@ -468,16 +516,16 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -494,6 +542,10 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_slide_in_left.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_slide_in_left.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -520,6 +572,10 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_diagonal_right_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_diagonal_right_enter.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
@@ -540,24 +596,24 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
@@ -780,6 +836,10 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_fade_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_fade_enter.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
@@ -834,6 +894,14 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_windmill_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_windmill_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_slide_up_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_slide_up_enter.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
@@ -1068,6 +1136,10 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_in_out_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_in_out_enter.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -1078,10 +1150,6 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\096fd2b5d97322669e136dc4c68e7cf5\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -1164,12 +1232,20 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_swipe_right_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_swipe_right_enter.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_card_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_card_exit.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
@@ -1192,12 +1268,20 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_diagonal_right_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_diagonal_right_exit.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_slide_out_right.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_slide_out_right.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_cascading_menu_item_layout.xml.flat",
@@ -1216,8 +1300,16 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_spin_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_spin_exit.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_slide_down_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_slide_down_exit.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_tooltip_enter.xml.flat",
@@ -1276,6 +1368,10 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_shrink_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_shrink_exit.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
@@ -1290,6 +1386,10 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_shrink_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_shrink_enter.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
@@ -1332,12 +1432,16 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_swipe_left_enter.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_swipe_left_enter.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -1350,6 +1454,10 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_fade_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_fade_exit.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1416,6 +1524,10 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_split_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_split_exit.xml"
+    },
+    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -1436,12 +1548,12 @@
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
-        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
-    },
-    {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_btn_colored_material.xml.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
@@ -1594,6 +1706,10 @@
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\4fc19614d55624c9db8b5845cecd6abe\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\anim_animate_swipe_right_exit.xml.flat",
+        "source": "C:\\Users\\Sandra\\.gradle\\caches\\transforms-1\\files-1.1\\Animatoo-master.aar\\512bab65aae39ddec09183e92f9f7b00\\res\\anim\\animate_swipe_right_exit.xml"
     },
     {
         "merged": "C:\\Users\\Sandra\\Documents\\Aplicacion-Final-TDP\\QueMePongo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",

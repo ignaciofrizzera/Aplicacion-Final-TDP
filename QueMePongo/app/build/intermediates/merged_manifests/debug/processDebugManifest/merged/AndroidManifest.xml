@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -41,7 +41,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".actividades.GeneroActivity" />
         </activity>
-        <activity android:name="com.example.sandra.quemepongo.actividades.ClimaActivity" />
+        <activity android:name="com.example.sandra.quemepongo.actividades.ClimaActivity" >
+            android:parentActivityName=".GeneroActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".actividades.EstiloActivity" />
+        </activity>
         <activity android:name="com.example.sandra.quemepongo.actividades.InfoActivity" >
             android:parentActivityName=".MainActivity">
             <!-- The meta-data tag is required if you support API level 15 and lower -->

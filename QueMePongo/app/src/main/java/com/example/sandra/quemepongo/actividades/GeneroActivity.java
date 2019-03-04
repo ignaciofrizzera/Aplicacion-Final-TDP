@@ -2,11 +2,14 @@ package com.example.sandra.quemepongo.actividades;
 
 
 import android.content.Intent;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
+
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 import com.example.sandra.quemepongo.data.PhoneData;
 
 /**
@@ -66,7 +69,15 @@ public class GeneroActivity extends AppCompatActivity {
      */
     public void nextActivity(View view){
         Intent intent = new Intent(this,EstiloActivity.class);
-        startActivity(intent);
+        /**Verifica que la versión del dispositivo cumpla los requisitos mínimos para soportar las animaciones
+         * En caso contrario se avanza de actividad sin un efecto de animación.
+         * */
+        if (Build.VERSION.SDK_INT > 16) {
+            startActivity(intent);
+            Animatoo.animateZoom(this);
+        } else {
+            startActivity(intent);
+        }
     }
 
 

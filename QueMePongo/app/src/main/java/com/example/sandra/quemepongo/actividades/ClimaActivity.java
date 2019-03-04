@@ -1,6 +1,7 @@
 package com.example.sandra.quemepongo.actividades;
 
 import android.content.Intent;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.blogspot.atifsoftwares.animatoolib.Animatoo;
 import com.example.sandra.quemepongo.data.PhoneData;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -96,6 +98,14 @@ public class ClimaActivity extends AppCompatActivity {
      */
     public void nextActivity(View view){
         Intent intent = new Intent(this, ResultadosActivity.class);
-        startActivity(intent);
+        /**Verifica que la versión del dispositivo cumpla los requisitos mínimos para soportar las animaciones
+         * En caso contrario se avanza de actividad sin un efecto de animación.
+         * */
+        if (Build.VERSION.SDK_INT > 16) {
+            startActivity(intent);
+            Animatoo.animateFade(this);
+        } else {
+            startActivity(intent);
+        }
     }
 }
