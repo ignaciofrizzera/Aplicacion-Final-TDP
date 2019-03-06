@@ -5,25 +5,34 @@ import android.os.Bundle;
 import android.widget.TextView;
 import com.example.sandra.quemepongo.R;
 import com.example.sandra.quemepongo.data.PhoneData;
+import com.example.sandra.quemepongo.prendas.Falda;
 import com.example.sandra.quemepongo.prendas.Prenda;
+import com.example.sandra.quemepongo.prendas.VestidoClasico;
+import com.example.sandra.quemepongo.prendas.abrigos.Blazer;
 import com.example.sandra.quemepongo.prendas.abrigos.Buzo;
 import com.example.sandra.quemepongo.prendas.abrigos.Campera;
 import com.example.sandra.quemepongo.prendas.abrigos.Chaleco;
+import com.example.sandra.quemepongo.prendas.abrigos.OversizedSweater;
+import com.example.sandra.quemepongo.prendas.abrigos.SobretodoPaño;
 import com.example.sandra.quemepongo.prendas.abrigos.Sweater;
+import com.example.sandra.quemepongo.prendas.abrigos.TapadoPaño;
 import com.example.sandra.quemepongo.prendas.accesorios.Bufanda;
 import com.example.sandra.quemepongo.prendas.accesorios.Paraguas;
+import com.example.sandra.quemepongo.prendas.accesorios.PañueloSeda;
 import com.example.sandra.quemepongo.prendas.calzados.Borcego;
 import com.example.sandra.quemepongo.prendas.calzados.Bota;
 import com.example.sandra.quemepongo.prendas.calzados.Chatas;
 import com.example.sandra.quemepongo.prendas.calzados.Mocasin;
 import com.example.sandra.quemepongo.prendas.calzados.Sandalia;
 import com.example.sandra.quemepongo.prendas.calzados.Tacos;
-import com.example.sandra.quemepongo.prendas.calzados.zapatillas.ZapatillaDeportiva;
-import com.example.sandra.quemepongo.prendas.calzados.zapatillas.ZapatillaUrbana;
+import com.example.sandra.quemepongo.prendas.calzados.Zapatilla;
+import com.example.sandra.quemepongo.prendas.camisas.BluzaSeda;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaCorta;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaLarga;
 import com.example.sandra.quemepongo.prendas.pantalones.Babucha;
+import com.example.sandra.quemepongo.prendas.pantalones.Chinos;
 import com.example.sandra.quemepongo.prendas.pantalones.Jean;
+import com.example.sandra.quemepongo.prendas.pantalones.PantalonVestir;
 import com.example.sandra.quemepongo.prendas.pantalones.cortos.Bermudas;
 import com.example.sandra.quemepongo.prendas.pantalones.cortos.Shorts;
 import com.example.sandra.quemepongo.prendas.remeras.MangaCorta;
@@ -36,7 +45,7 @@ import com.example.sandra.quemepongo.visitors.VisitorPrenda;
 import java.util.ArrayList;
 
 import static com.example.sandra.quemepongo.visitors.VisitorPrenda.obligatorio;
-import static com.example.sandra.quemepongo.visitors.VisitorPrenda.recomendable;
+import static com.example.sandra.quemepongo.visitors.VisitorPrenda.opcional;
 
 /**
  * Clase/Actividad destinada a setear los puntajes de las prendas en base a los datos climáticos y mostrar
@@ -44,11 +53,13 @@ import static com.example.sandra.quemepongo.visitors.VisitorPrenda.recomendable;
  */
 public class ResultadosActivity extends AppCompatActivity {
 
-    private TextView cartel_info,deberia_ropa,recomienda_ropa;
+    private TextView cartel_info,deberia_ropa,opcional_ropa;
     private final PhoneData data = PhoneData.getData();
     private final String ciudad = data.getCiudad()+" - ";
     private final String humedad = "Humedad: "+data.getHumedad()+"%";
     private final ArrayList<Prenda> lista_prendas = new ArrayList<Prenda>();
+    private String msg_deberia;
+    private String msg_opcional;
     private String temp;
 
     @Override
@@ -67,7 +78,7 @@ public class ResultadosActivity extends AppCompatActivity {
     private void startUp(){
         cartel_info = (TextView)findViewById(R.id.cartel_info);
         deberia_ropa = (TextView)findViewById(R.id.deberia_ropa);
-        recomienda_ropa = (TextView)findViewById(R.id.recomienda_ropa);
+        opcional_ropa = (TextView)findViewById(R.id.opcional_ropa);
 
         this.setTemp();
         String message = ciudad + temp + humedad;
@@ -106,15 +117,22 @@ public class ResultadosActivity extends AppCompatActivity {
         for(Prenda e : lista_prendas) {
             e.accept(visitor_prendas);
 
-
-            /**Agrego esto aca, en vez de tener el otro método que tenía y encima recorrer la lista 2 veces.*/
             if(e.getPuntaje() == obligatorio){
-                deberia_ropa.setText(deberia_ropa.getText() + e.getNombre() + ", ");
+                msg_deberia = msg_deberia + e.getNombre() + ", ";
             }
-            if(e.getPuntaje() == recomendable){
-                recomienda_ropa.setText(recomienda_ropa.getText() + e.getNombre()+ ", ");
+            if(e.getPuntaje() == opcional){
+                msg_opcional = msg_opcional + e.getNombre() + ", ";
             }
         }
+
+        /**El substring comienza en 4 porque se esta almacenando un "null" que no puedo lograr eliminar.
+         * Luego se cortan los ultimos 2 ya que son el espacio y la coma, y se reemplazan con un punto.
+         * */
+        String msg_deberia_final = msg_deberia.substring(4,msg_deberia.length()-2)+'.';
+        String msg_recomienda_final = msg_opcional.substring(4,msg_opcional.length()-2)+'.';
+
+        deberia_ropa.setText(msg_deberia_final);
+        opcional_ropa.setText(msg_recomienda_final);
     }
 
     /**
@@ -127,8 +145,7 @@ public class ResultadosActivity extends AppCompatActivity {
         lista_prendas.add(new Sweater());
         lista_prendas.add(new Bufanda());
         lista_prendas.add(new Paraguas());
-        lista_prendas.add(new ZapatillaUrbana());
-        lista_prendas.add(new ZapatillaDeportiva());
+        lista_prendas.add(new Zapatilla());
         lista_prendas.add(new Borcego());
         lista_prendas.add(new Bota());
         lista_prendas.add(new Chatas());
@@ -145,5 +162,15 @@ public class ResultadosActivity extends AppCompatActivity {
         lista_prendas.add(new MangaCorta());
         lista_prendas.add(new Musculosa());
         lista_prendas.add(new Termica());
+        lista_prendas.add(new Blazer());
+        lista_prendas.add(new OversizedSweater());
+        lista_prendas.add(new SobretodoPaño());
+        lista_prendas.add(new TapadoPaño());
+        lista_prendas.add(new PañueloSeda());
+        lista_prendas.add(new BluzaSeda());
+        lista_prendas.add(new Chinos());
+        lista_prendas.add(new PantalonVestir());
+        lista_prendas.add(new Falda());
+        lista_prendas.add(new VestidoClasico());
     }
 }

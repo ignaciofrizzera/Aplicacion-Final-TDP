@@ -1,24 +1,33 @@
 package com.example.sandra.quemepongo.visitors;
 
 
+import com.example.sandra.quemepongo.prendas.Falda;
+import com.example.sandra.quemepongo.prendas.VestidoClasico;
+import com.example.sandra.quemepongo.prendas.abrigos.Blazer;
 import com.example.sandra.quemepongo.prendas.abrigos.Buzo;
 import com.example.sandra.quemepongo.prendas.abrigos.Campera;
 import com.example.sandra.quemepongo.prendas.abrigos.Chaleco;
+import com.example.sandra.quemepongo.prendas.abrigos.OversizedSweater;
+import com.example.sandra.quemepongo.prendas.abrigos.SobretodoPaño;
 import com.example.sandra.quemepongo.prendas.abrigos.Sweater;
+import com.example.sandra.quemepongo.prendas.abrigos.TapadoPaño;
 import com.example.sandra.quemepongo.prendas.accesorios.Bufanda;
 import com.example.sandra.quemepongo.prendas.accesorios.Paraguas;
+import com.example.sandra.quemepongo.prendas.accesorios.PañueloSeda;
 import com.example.sandra.quemepongo.prendas.calzados.Borcego;
 import com.example.sandra.quemepongo.prendas.calzados.Bota;
 import com.example.sandra.quemepongo.prendas.calzados.Chatas;
 import com.example.sandra.quemepongo.prendas.calzados.Mocasin;
 import com.example.sandra.quemepongo.prendas.calzados.Sandalia;
 import com.example.sandra.quemepongo.prendas.calzados.Tacos;
-import com.example.sandra.quemepongo.prendas.calzados.zapatillas.ZapatillaDeportiva;
-import com.example.sandra.quemepongo.prendas.calzados.zapatillas.ZapatillaUrbana;
+import com.example.sandra.quemepongo.prendas.calzados.Zapatilla;
+import com.example.sandra.quemepongo.prendas.camisas.BluzaSeda;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaCorta;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaLarga;
 import com.example.sandra.quemepongo.prendas.pantalones.Babucha;
+import com.example.sandra.quemepongo.prendas.pantalones.Chinos;
 import com.example.sandra.quemepongo.prendas.pantalones.Jean;
+import com.example.sandra.quemepongo.prendas.pantalones.PantalonVestir;
 import com.example.sandra.quemepongo.prendas.pantalones.cortos.Bermudas;
 import com.example.sandra.quemepongo.prendas.pantalones.cortos.Shorts;
 import com.example.sandra.quemepongo.prendas.remeras.MangaCorta;
@@ -105,16 +114,10 @@ public interface Visitor {
     public void visitTacos(Tacos t);
 
     /**
-     * Setea puntaje de unas zapatillas deportivas segun la información del usuario.
-     * @param z zapatillas deportivas a puntear.
+     * Setea puntaje de unas zapatillas segun la información del usuario.
+     * @param z zapatillas a puntear.
      */
-    public void visitZapatillaDeportiva(ZapatillaDeportiva z);
-
-    /**
-     * Setea puntaje de unas zapatillas urbanas segun la información del usuario.
-     * @param z zapatillas urbanas a puntear.
-     */
-    public void visitZapatillaUrbana(ZapatillaUrbana z);
+    public void visitZapatilla(Zapatilla z);
 
     /**
      * Setea puntaje de una camisa manga corta segun la información del usuario.
@@ -176,4 +179,63 @@ public interface Visitor {
      */
     public void visitTermica(Termica t);
 
+    /**
+     * Setea puntaje de un blazer segun la información del usuario.
+     * @param b blazer a puntear.
+     */
+    public void visitBlazer(Blazer b);
+
+    /**
+     * Setea puntaje de un tapado de paño segun la informacion del usuario.
+     * @param t tapado de paño a puntear.
+     */
+    public void visitTapadoPaño(TapadoPaño t);
+
+    /**
+     * Setea puntaje de un sweater oversized segun la informacion del usuario.
+     * @param s sweater oversized a puntear.
+     */
+    public void visitOversizedSweater(OversizedSweater s);
+
+    /**
+     * Setea puntaje de un sobretodo de paño segun la informacion del usuario.
+     * @param s sobretodo de paño a puntear.
+     */
+    public void visitSobretodoPaño(SobretodoPaño s);
+
+    /**
+     * Setea puntaje de un pañuelo de seda segun la informaion del usuario.
+     * @param p pañuelo de seda a puntear.
+     */
+    public void visitPañueloSeda(PañueloSeda p);
+
+    /**
+     * Setea puntaje de unos pantalones chinos segun la informacion del usuario.
+     * @param c pantalones chinos a puntear.
+     */
+    public void visitChinos(Chinos c);
+
+    /**
+     * Setea puntaje de unos pantalones de vestir segun la informacion del usuario.
+     * @param p pantalones de vestir a puntear.
+     */
+    public void visitPantalonVestir(PantalonVestir p);
+
+    /**
+     * Setea puntaje de una bluza de seda segun la informacion del usuario.
+     * @param b bluza de seda a puntear.
+     */
+    public void visitBluzaSeda(BluzaSeda b);
+
+    /**
+     * Setea puntaje de un vestido clasico segun la informacion del usuario.
+     * @param v vestido clasico a puntear.
+     */
+    public void visitVestidoClasico(VestidoClasico v);
+
+    /**
+     * Setea puntaje de una falda segun la informacion del usuario.
+     * @param f falda a puntear.
+     */
+    public void visitFalda(Falda f);
 }

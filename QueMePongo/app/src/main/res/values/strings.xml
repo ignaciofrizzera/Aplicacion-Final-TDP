@@ -14,8 +14,8 @@
     <string name="mensaje_logo">Logo UNS</string>
     <string name="ingrese_ciudad">Ingrese su ciudad actual, evitando los tildes</string>
     <string name="ciudad">Ciudad:</string>
-    <string name="debe_usar"><u>Se deberia usar</u>:</string>
-    <string name="recomienda_usar"><u>Se recomienda usar</u>:</string>
+    <string name="debe_usar"><u>Se debería usar</u>:</string>
+    <string name="recomienda_usar"><u>Opcionalmente se puede usar</u>:</string>
     <string name="msg_gracias">Que tenga un buen día!</string>
     <string name="link_dcic">https://cs.uns.edu.ar</string>
     <string name="link_uns">https://www.uns.edu.ar/</string>

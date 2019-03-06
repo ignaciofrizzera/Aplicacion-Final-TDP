@@ -39,7 +39,7 @@
                 />
 
         <TextView
-            android:id="@+id/cartel_recomendar"
+            android:id="@+id/cartel_opcional"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/recomienda_usar"
@@ -50,7 +50,7 @@
                 />
 
         <TextView
-            android:id="@+id/recomienda_ropa"
+            android:id="@+id/opcional_ropa"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18dp"

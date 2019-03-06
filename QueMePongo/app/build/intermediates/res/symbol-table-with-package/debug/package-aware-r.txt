@@ -868,7 +868,7 @@ id cartel_dcic
 id cartel_email
 id cartel_gracias
 id cartel_info
-id cartel_recomendar
+id cartel_opcional
 id cartel_uns
 id cartel_usar
 id center
@@ -944,6 +944,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id opcional_ropa
 id packed
 id parent
 id parentPanel
@@ -951,7 +952,6 @@ id percent
 id progress_circular
 id progress_horizontal
 id radio
-id recomienda_ropa
 id right
 id right_icon
 id right_side
