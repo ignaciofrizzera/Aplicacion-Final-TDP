@@ -25,7 +25,7 @@ La aplicación esta dividida en seis actividades cada una con un rol específico
 
 * **Singleton**: es utilizado en la clase PhoneData, logra su objetivo evitando la creación de varias instancias de esta clase a lo largo de la ejecucíon de la aplicación.
 
-* **Visitor**: es utilizado para recorrer distintas colecciones de Prendas y analizarlas de una manera eficiente y simple
+* **Visitor**: es utilizado para recorrer distintas colecciones de Prendas y analizarlas de una manera eficiente y simple.
   
 ## Cómo instalar
 
