@@ -2,6 +2,7 @@
 Repositorio a utilizar para el desarrollo de la aplicación final de Tecnologías de Programación.
 
 La aplicación tiene como objetivo brindar una selección de prendas al usuario, en base a los datos ingresados por este, tales como el género, el estilo de ropa que va a usar y su ciudad o locación actual, a partir de la cual se obtendran los datos climáticos.
+
 Se utilizará la API provista por https://openweathermap.org/api para obtener los datos climáticos de las ciudades y se usará la librería "Volley", https://developer.android.com/training/volley, para la comunicación con dicha API.
 
 ## Estructura
@@ -28,4 +29,10 @@ La aplicación esta dividida en seis actividades cada una con un rol específico
   
 ## Cómo instalar
 
+Por el momento se recomienda hacer un pull de este repositorio y ejecutar la aplicación desde Android Studio o el programa que usted desee.
+
 ## Anexo
+
+Se utilizó una librería creada por el usuario [**mohammadatif**](https://github.com/mohammadatif/), llamada "Animatoo", https://github.com/mohammadatif/Animatoo, gracias a esto se pudieron incorportar efectos a las transiciones entre actividades de una manera simple y prolija.
+
+Ante cualquier duda, mi dirección de email es ignaciofrizzera@gmail.com a la cual pueden escribirme si desean.
