@@ -13,12 +13,12 @@ import com.example.sandra.quemepongo.prendas.abrigos.Buzo;
 import com.example.sandra.quemepongo.prendas.abrigos.Campera;
 import com.example.sandra.quemepongo.prendas.abrigos.Chaleco;
 import com.example.sandra.quemepongo.prendas.abrigos.OversizedSweater;
-import com.example.sandra.quemepongo.prendas.abrigos.SobretodoPaño;
+import com.example.sandra.quemepongo.prendas.abrigos.SobretodoPanio;
 import com.example.sandra.quemepongo.prendas.abrigos.Sweater;
-import com.example.sandra.quemepongo.prendas.abrigos.TapadoPaño;
+import com.example.sandra.quemepongo.prendas.abrigos.TapadoPanio;
 import com.example.sandra.quemepongo.prendas.accesorios.Bufanda;
 import com.example.sandra.quemepongo.prendas.accesorios.Paraguas;
-import com.example.sandra.quemepongo.prendas.accesorios.PañueloSeda;
+import com.example.sandra.quemepongo.prendas.accesorios.PanueloSeda;
 import com.example.sandra.quemepongo.prendas.calzados.Borcego;
 import com.example.sandra.quemepongo.prendas.calzados.Bota;
 import com.example.sandra.quemepongo.prendas.calzados.Chatas;
@@ -76,9 +76,9 @@ public class ResultadosActivity extends AppCompatActivity {
      * Inicializa los carteles con la temperatura, humedad y el nombre de la ciudad del usuario.
      */
     private void startUp(){
-        cartel_info = (TextView)findViewById(R.id.cartel_info);
-        deberia_ropa = (TextView)findViewById(R.id.deberia_ropa);
-        opcional_ropa = (TextView)findViewById(R.id.opcional_ropa);
+        cartel_info = findViewById(R.id.cartel_info);
+        deberia_ropa = findViewById(R.id.deberia_ropa);
+        opcional_ropa = findViewById(R.id.opcional_ropa);
 
         this.setTemp();
         String message = ciudad + temp + humedad;
@@ -164,9 +164,9 @@ public class ResultadosActivity extends AppCompatActivity {
         lista_prendas.add(new Termica());
         lista_prendas.add(new Blazer());
         lista_prendas.add(new OversizedSweater());
-        lista_prendas.add(new SobretodoPaño());
-        lista_prendas.add(new TapadoPaño());
-        lista_prendas.add(new PañueloSeda());
+        lista_prendas.add(new SobretodoPanio());
+        lista_prendas.add(new TapadoPanio());
+        lista_prendas.add(new PanueloSeda());
         lista_prendas.add(new BluzaSeda());
         lista_prendas.add(new Chinos());
         lista_prendas.add(new PantalonVestir());

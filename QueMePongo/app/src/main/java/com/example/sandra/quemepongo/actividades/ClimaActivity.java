@@ -44,15 +44,15 @@ public class ClimaActivity extends AppCompatActivity {
      * Inicializa la actividad y sus elementos.
      */
     private void startUp(){
-        cartel_ciudad = (TextView) findViewById(com.example.sandra.quemepongo.R.id.ciudad_text);
-        ciudad_ingresada = (EditText) findViewById(com.example.sandra.quemepongo.R.id.ingreso_ciudad);
-        boton_siguiente = (Button) findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_clima);
-        check_ciudad = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.check_ciudad);
+        cartel_ciudad = findViewById(com.example.sandra.quemepongo.R.id.ciudad_text);
+        ciudad_ingresada = findViewById(com.example.sandra.quemepongo.R.id.ingreso_ciudad);
+        boton_siguiente = findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_clima);
+        check_ciudad = findViewById(com.example.sandra.quemepongo.R.id.check_ciudad);
     }
     /**
      * Método encargado de verificar si la ciudad ingresada por el usuario es válida o no.
      * En el caso de que sea válida se procede a trabajar con el objeto JSon para obtener los datos climáticos
-     * Obtenidos apartir de la API de open weather.
+     * Obtenidos apartir de la API de openweather.
      * Caso que la ciudad sea invalida se le notifica al usuario.
      * @param view
      */
@@ -66,7 +66,7 @@ public class ClimaActivity extends AppCompatActivity {
                         try {
                             JSONObject main_object = response.getJSONObject("main");
                             PhoneData aux = PhoneData.getData();
-
+                            /**Obtención de los datos climáticos brindados por la API*/
                             aux.setTempAct(main_object.getDouble("temp"));
                             aux.setTempMax(main_object.getDouble("temp_max"));
                             aux.setTempMin(main_object.getDouble("temp_min"));
@@ -88,6 +88,7 @@ public class ClimaActivity extends AppCompatActivity {
                 boton_siguiente.setVisibility(View.GONE);
             }
         });
+
         RequestQueue queue = Volley.newRequestQueue(this);
         queue.add(req);
     }

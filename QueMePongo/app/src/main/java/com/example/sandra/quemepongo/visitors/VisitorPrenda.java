@@ -8,12 +8,12 @@ import com.example.sandra.quemepongo.prendas.abrigos.Buzo;
 import com.example.sandra.quemepongo.prendas.abrigos.Campera;
 import com.example.sandra.quemepongo.prendas.abrigos.Chaleco;
 import com.example.sandra.quemepongo.prendas.abrigos.OversizedSweater;
-import com.example.sandra.quemepongo.prendas.abrigos.SobretodoPaño;
+import com.example.sandra.quemepongo.prendas.abrigos.SobretodoPanio;
 import com.example.sandra.quemepongo.prendas.abrigos.Sweater;
-import com.example.sandra.quemepongo.prendas.abrigos.TapadoPaño;
+import com.example.sandra.quemepongo.prendas.abrigos.TapadoPanio;
 import com.example.sandra.quemepongo.prendas.accesorios.Bufanda;
 import com.example.sandra.quemepongo.prendas.accesorios.Paraguas;
-import com.example.sandra.quemepongo.prendas.accesorios.PañueloSeda;
+import com.example.sandra.quemepongo.prendas.accesorios.PanueloSeda;
 import com.example.sandra.quemepongo.prendas.calzados.Borcego;
 import com.example.sandra.quemepongo.prendas.calzados.Bota;
 import com.example.sandra.quemepongo.prendas.calzados.Chatas;
@@ -37,6 +37,7 @@ import com.example.sandra.quemepongo.prendas.remeras.Termica;
 
 /**
  * Visitor destinado a determinar el puntaje de las prendas.
+ *  * NOTA: algunos métodos están escritos de forma incorrecta con el objetivo de poder generar los JavaDoc.
  */
 public class VisitorPrenda implements Visitor {
 
@@ -342,7 +343,7 @@ public class VisitorPrenda implements Visitor {
     }
 
     @Override
-    public void visitTapadoPaño(TapadoPaño t) {
+    public void visitTapadoPanio(TapadoPanio t) {
         if(es_mujer){
             if(max < 15)
                 t.setPuntaje(opcional);
@@ -362,7 +363,7 @@ public class VisitorPrenda implements Visitor {
     }
 
     @Override
-    public void visitSobretodoPaño(SobretodoPaño s) {
+    public void visitSobretodoPanio(SobretodoPanio s) {
         if(!es_mujer && es_formal){
             if(max < 15)
                 s.setPuntaje(opcional);
@@ -372,7 +373,7 @@ public class VisitorPrenda implements Visitor {
     }
 
     @Override
-    public void visitPañueloSeda(PañueloSeda p) {
+    public void visitPanueloSeda(PanueloSeda p) {
         if(es_mujer){
             if(max < 20)
                 p.setPuntaje(obligatorio);

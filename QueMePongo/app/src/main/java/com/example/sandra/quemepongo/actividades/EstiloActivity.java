@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.CheckBox;
 
 import com.blogspot.atifsoftwares.animatoolib.Animatoo;
-import com.example.sandra.quemepongo.actividades.ClimaActivity;
 import com.example.sandra.quemepongo.data.PhoneData;
 
 /**
@@ -33,9 +32,9 @@ public class EstiloActivity extends AppCompatActivity {
      * Inicializa la actividad y sus elementos.
      */
     private void startUp(){
-        check_casual = (CheckBox)findViewById(com.example.sandra.quemepongo.R.id.boton_casual);
-        check_formal = (CheckBox)findViewById(com.example.sandra.quemepongo.R.id.boton_formal);
-        siguiente = (Button)findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_estilo);
+        check_casual = findViewById(com.example.sandra.quemepongo.R.id.boton_casual);
+        check_formal = findViewById(com.example.sandra.quemepongo.R.id.boton_formal);
+        siguiente = findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_estilo);
 
     }
 

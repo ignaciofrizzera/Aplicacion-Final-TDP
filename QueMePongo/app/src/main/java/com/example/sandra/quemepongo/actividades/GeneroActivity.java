@@ -33,9 +33,9 @@ public class GeneroActivity extends AppCompatActivity {
      * Inicializa la actividad y sus elementos.
      */
     private void startUp(){
-        check_femenino = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.boton_femenino);
-        check_masculino = (CheckBox) findViewById(com.example.sandra.quemepongo.R.id.boton_masculino);
-        siguiente = (Button) findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_genero);
+        check_femenino = findViewById(com.example.sandra.quemepongo.R.id.boton_femenino);
+        check_masculino = findViewById(com.example.sandra.quemepongo.R.id.boton_masculino);
+        siguiente = findViewById(com.example.sandra.quemepongo.R.id.boton_seguir_genero);
     }
 
     /**
