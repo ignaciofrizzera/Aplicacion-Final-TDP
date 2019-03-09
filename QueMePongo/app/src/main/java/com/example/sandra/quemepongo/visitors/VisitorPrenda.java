@@ -116,11 +116,11 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitBufanda(Bufanda b) {
-        if(max < 20){
+        if(max < 15){
             b.setPuntaje(opcional);
         }
         else {
-            if (max < 15) {
+            if (max < 10) {
                 b.setPuntaje(obligatorio);
             }
         }
