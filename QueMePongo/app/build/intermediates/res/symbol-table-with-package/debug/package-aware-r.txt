@@ -1115,9 +1115,7 @@ string link_dcic
 string link_uns
 string masculino
 string mensaje_informacion
-string mensaje_logo
 string msg_gracias
-string msg_testing
 string recomienda_usar
 string search_menu_title
 string sexo

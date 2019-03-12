@@ -3454,13 +3454,11 @@ public final class R {
     public static final int link_uns=0x7f0b0037;
     public static final int masculino=0x7f0b0038;
     public static final int mensaje_informacion=0x7f0b0039;
-    public static final int mensaje_logo=0x7f0b003a;
-    public static final int msg_gracias=0x7f0b003b;
-    public static final int msg_testing=0x7f0b003c;
-    public static final int recomienda_usar=0x7f0b003d;
-    public static final int search_menu_title=0x7f0b003e;
-    public static final int sexo=0x7f0b003f;
-    public static final int status_bar_notification_info_overflow=0x7f0b0040;
+    public static final int msg_gracias=0x7f0b003a;
+    public static final int recomienda_usar=0x7f0b003b;
+    public static final int search_menu_title=0x7f0b003c;
+    public static final int sexo=0x7f0b003d;
+    public static final int status_bar_notification_info_overflow=0x7f0b003e;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0c0000;

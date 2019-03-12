@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Que Me Pongo</string>
     <string name="boton_inicio">Comenzar</string>
-    <string name="msg_testing">MENSAJE TESTEO<br />HOLa</string>
     <string name="femenino">Femenino</string>
     <string name="masculino">Masculino</string>
     <string name="sexo">Sexo</string>
@@ -11,12 +10,11 @@
     <string name="formal">Formal</string>
     <string name="informacion">Acerca de</string>
     <string name="mensaje_informacion">Proyecto desarrolado por Ignacio Frizzera, estudiante de Ingeniería en Sistemas de Información en la Universidad Nacional del Sur, LU: 117815.</string>
-    <string name="mensaje_logo">Logo UNS</string>
-    <string name="ingrese_ciudad">Ingrese su ciudad actual, evitando los tildes</string>
+    <string name="ingrese_ciudad">Ingrese su ciudad actual</string>
     <string name="ciudad">Ciudad:</string>
     <string name="debe_usar"><u>Se debería usar</u>:</string>
     <string name="recomienda_usar"><u>Opcionalmente se puede usar</u>:</string>
-    <string name="msg_gracias">Que tenga un buen día!</string>
+    <string name="msg_gracias">¡Que tenga un buen día!</string>
     <string name="link_dcic">https://cs.uns.edu.ar</string>
     <string name="link_uns">https://www.uns.edu.ar/</string>
     <string name="cartel_uns">• Universidad Nacional del Sur</string>

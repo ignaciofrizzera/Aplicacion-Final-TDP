@@ -20,6 +20,8 @@ import com.example.sandra.quemepongo.data.PhoneData;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.text.Normalizer;
+
 /**
  * Clase/Actividad destinada a obtener los datos climáticos a partir de la ciudad que ingrese el usuario.
  */
@@ -58,6 +60,10 @@ public class ClimaActivity extends AppCompatActivity {
      */
     public void onCheck(View view){
         String city = ciudad_ingresada.getText().toString();
+        /**Elimina acentos del nombre de la ciudad ya que la API no los considera al ser en ingles.*/
+        city = Normalizer.normalize(city, Normalizer.Form.NFKD);
+        city = city.replaceAll("[^\\p{ASCII}]", "");
+
         final String URL = base_url+city+key_api;
         JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET,URL, null,
                 new Response.Listener<JSONObject>() {
