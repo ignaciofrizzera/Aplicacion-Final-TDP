@@ -64,14 +64,16 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitCampera(Campera c) {
-        if(max < 15) {
-            c.setPuntaje(opcional);
-        }
-        if(max < 10){
-            c.setPuntaje(obligatorio);
-        }
-        if(humedad > 90){
-            c.setPuntaje(opcional);
+        if(!es_formal) {
+            if (max <= 15) {
+                c.setPuntaje(opcional);
+            }
+            if (max <= 10) {
+                c.setPuntaje(obligatorio);
+            }
+            if (humedad > 90) {
+                c.setPuntaje(opcional);
+            }
         }
     }
 
@@ -79,10 +81,10 @@ public class VisitorPrenda implements Visitor {
     @Override
     public void visitSweater(Sweater s) {
         if(es_formal){
-            if(max < 15){
+            if(max <= 15){
                 s.setPuntaje(obligatorio);
             }
-            if(max < 25 && max > 20){
+            if(max < 20 && max > 15){
                 s.setPuntaje(opcional);
             }
         }
@@ -91,10 +93,10 @@ public class VisitorPrenda implements Visitor {
     @Override
     public void visitBuzo(Buzo b) {
         if(!es_formal){
-            if(max < 20){
+            if(max <= 15){
                 b.setPuntaje(obligatorio);
             }
-            if(max < 25 && max > 20){
+            if(max < 20 && max > 15){
                 b.setPuntaje(opcional);
             }
         }
@@ -103,13 +105,7 @@ public class VisitorPrenda implements Visitor {
     @Override
     public void visitChaleco(Chaleco c) {
         if(es_formal){
-            if(!es_mujer){
-                if(max < 20 && max > 15)
-                    c.setPuntaje(opcional);
-            }
-        }
-        else{
-            if(max < 20)
+            if(max < 20 && max > 15)
                 c.setPuntaje(opcional);
         }
     }
@@ -140,7 +136,7 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitBorcego(Borcego b) {
-        if(!es_mujer){
+        if(!es_mujer && !es_formal){
             if(max < 15){
                 b.setPuntaje(opcional);
             }
@@ -176,13 +172,8 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitMocasin(Mocasin m) {
-        if(es_formal){
-            if(!es_mujer) {
-                m.setPuntaje(obligatorio);
-            }
-            else{
-                m.setPuntaje(opcional);
-            }
+        if(es_formal && !es_mujer){
+            m.setPuntaje(obligatorio);
         }
     }
 
@@ -245,7 +236,7 @@ public class VisitorPrenda implements Visitor {
             if (max > 20){
                 b.setPuntaje(opcional);
             }
-            if (max > 25) {
+            if (max >= 25) {
                 b.setPuntaje(obligatorio);
             }
         }
@@ -257,7 +248,7 @@ public class VisitorPrenda implements Visitor {
             if (max > 20){
                 s.setPuntaje(opcional);
             }
-            if (max > 25) {
+            if (max >= 25) {
                 s.setPuntaje(obligatorio);
             }
         }
@@ -276,11 +267,13 @@ public class VisitorPrenda implements Visitor {
     }
     @Override
     public void visitJean(Jean j) {
-        if(max < 30 && max > 20) {
-            j.setPuntaje(opcional);
-        }
-        if(max < 20) {
-            j.setPuntaje(obligatorio);
+        if (!es_formal) {
+            if (max <= 25) {
+                j.setPuntaje(obligatorio);
+            }
+            else{
+                j.setPuntaje(opcional);
+            }
         }
     }
 
@@ -302,7 +295,7 @@ public class VisitorPrenda implements Visitor {
             if(max < 20) {
                 r.setPuntaje(opcional);
             }
-            if(max < 15) {
+            if(max <= 15) {
                 r.setPuntaje(obligatorio);
             }
         }
@@ -322,32 +315,30 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitTermica(Termica t) {
-        if(max < 15)
-            t.setPuntaje(opcional);
-        if(max < 10)
-            t.setPuntaje(obligatorio);
+        if (!es_formal) {
+            if (max < 15)
+                t.setPuntaje(opcional);
+            if (max < 10)
+                t.setPuntaje(obligatorio);
+        }
     }
 
     @Override
     public void visitBlazer(Blazer b) {
-        if(es_mujer){
-            if(es_formal){
-                if(max < 25){
-                    b.setPuntaje(opcional);
-                }
-                if(max < 20){
-                    b.setPuntaje(obligatorio);
-                }
+        if (es_mujer && es_formal) {
+            if (max < 25) {
+                b.setPuntaje(obligatorio);
+            }
+            if (max <= 15 && max > 10) {
+                b.setPuntaje(opcional);
             }
         }
     }
 
     @Override
     public void visitTapadoPanio(TapadoPanio t) {
-        if(es_mujer){
-            if(max < 15)
-                t.setPuntaje(opcional);
-            if(max < 10)
+        if(es_mujer && es_formal){
+            if(max <= 15)
                 t.setPuntaje(obligatorio);
         }
     }
@@ -365,16 +356,16 @@ public class VisitorPrenda implements Visitor {
     @Override
     public void visitSobretodoPanio(SobretodoPanio s) {
         if(!es_mujer && es_formal){
-            if(max < 15)
+            if(max <= 15)
                 s.setPuntaje(opcional);
-            if(max < 10)
+            if(max <= 10)
                 s.setPuntaje(obligatorio);
         }
     }
 
     @Override
     public void visitPanueloSeda(PanueloSeda p) {
-        if(es_mujer){
+        if(es_mujer && es_formal){
             if(max < 20)
                 p.setPuntaje(obligatorio);
         }
