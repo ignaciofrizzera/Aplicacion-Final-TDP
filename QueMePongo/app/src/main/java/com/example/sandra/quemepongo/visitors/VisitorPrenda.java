@@ -80,31 +80,21 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitSweater(Sweater s) {
-        if(es_formal){
-            if(max <= 15){
-                s.setPuntaje(obligatorio);
-            }
-            if(max < 20 && max > 15){
-                s.setPuntaje(opcional);
-            }
+        if(es_formal && max <= 20){
+            s.setPuntaje(obligatorio);
         }
     }
 
     @Override
     public void visitBuzo(Buzo b) {
-        if(!es_formal){
-            if(max <= 15){
-                b.setPuntaje(obligatorio);
-            }
-            if(max < 20 && max > 15){
-                b.setPuntaje(opcional);
-            }
+        if(!es_formal && max <= 20){
+            b.setPuntaje(obligatorio);
         }
     }
 
     @Override
     public void visitChaleco(Chaleco c) {
-        if(es_formal){
+        if(!es_formal){
             if(max < 20 && max > 15)
                 c.setPuntaje(opcional);
         }
@@ -124,7 +114,7 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitParaguas(Paraguas p) {
-        if(humedad >90){
+        if(humedad >= 90){
             p.setPuntaje(obligatorio);
         }
         else {
@@ -279,13 +269,8 @@ public class VisitorPrenda implements Visitor {
 
     @Override
     public void visitRemeraCorta(MangaCorta r) {
-        if(!es_formal){
-            if(max > 15) {
-                r.setPuntaje(opcional);
-            }
-            if(max > 20) {
-                r.setPuntaje(obligatorio);
-            }
+        if(!es_formal && max > 15 ){
+            r.setPuntaje(obligatorio);
         }
     }
 
@@ -295,7 +280,7 @@ public class VisitorPrenda implements Visitor {
             if(max < 20) {
                 r.setPuntaje(opcional);
             }
-            if(max <= 15) {
+            if(max < 15) {
                 r.setPuntaje(obligatorio);
             }
         }
