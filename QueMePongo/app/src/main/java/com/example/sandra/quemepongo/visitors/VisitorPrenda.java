@@ -41,26 +41,24 @@ import com.example.sandra.quemepongo.prendas.remeras.Termica;
  */
 public class VisitorPrenda implements Visitor {
 
-    /**La forma en que se puntean las prendas es subjectiva a la opinion del autor.*/
+    //La forma en que se puntean las prendas es subjectiva a la opinion del autor.
 
-    /**
+    /*
      * PUNTAJE = 10 - USAR SI O SI
      * PUNTAJE = 7.5 - OPCIONAL
-     * */
-
+     */
     public static final double obligatorio = 10;
     public static final double opcional = 7.5;
 
-    /**Para la altura que el visitor trabaje, la data estará inicializada ya.*/
     private final double max = PhoneData.getData().getTempMax();
     private final int humedad = PhoneData.getData().getHumedad();
     private final boolean es_mujer = PhoneData.getData().esMujer();
     private final boolean es_formal = PhoneData.getData().esFormal();
 
-    /**
+    /*
      * La API para ciudades chicas considera la temp min = temp max
      * Se realizó el cálculo de los puntajes en base a la temperatura máxima, ya esta sea igual a la minima o distinta.
-     * */
+    */
 
     @Override
     public void visitCampera(Campera c) {

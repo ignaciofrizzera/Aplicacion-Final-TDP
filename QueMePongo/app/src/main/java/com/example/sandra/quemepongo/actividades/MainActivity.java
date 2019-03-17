@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
      */
     public void nextActivity(View view){
         Intent intent = new Intent(this, GeneroActivity.class);
-        /**Verifica que la versión del dispositivo cumpla los requisitos mínimos para soportar las animaciones
+        /*Verifica que la versión del dispositivo cumpla los requisitos mínimos para soportar las animaciones
          * En caso contrario se avanza de actividad sin un efecto de animación.
-         * */
+         */
         if (Build.VERSION.SDK_INT > 16) {
             startActivity(intent);
             Animatoo.animateZoom(this);
@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
      */
     public void showInfo(View view){
         Intent intent = new Intent(this,InfoActivity.class);
-        /**Verifica que la versión del dispositivo cumpla los requisitos mínimos para soportar las animaciones
+        /*Verifica que la versión del dispositivo cumpla los requisitos mínimos para soportar las animaciones
          * En caso contrario se avanza de actividad sin un efecto de animación.
-         * */
+         */
         if (Build.VERSION.SDK_INT > 16){
             startActivity(intent);
             Animatoo.animateZoom(this);

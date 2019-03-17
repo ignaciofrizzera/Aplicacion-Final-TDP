@@ -125,9 +125,9 @@ public class ResultadosActivity extends AppCompatActivity {
             }
         }
 
-        /**El substring comienza en 4 porque se esta almacenando un "null" que no puedo lograr eliminar.
+        /*El substring comienza en 4 porque se esta almacenando un "null" que no puedo lograr eliminar.
          * Luego se cortan los ultimos 2 ya que son el espacio y la coma, y se reemplazan con un punto.
-         * */
+         */
         String msg_deberia_final = msg_deberia.substring(4,msg_deberia.length()-2)+'.';
         String msg_recomienda_final = msg_opcional.substring(4,msg_opcional.length()-2)+'.';
 

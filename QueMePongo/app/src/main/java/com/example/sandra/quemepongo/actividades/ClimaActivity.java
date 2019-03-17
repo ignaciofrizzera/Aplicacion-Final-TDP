@@ -60,11 +60,12 @@ public class ClimaActivity extends AppCompatActivity {
      */
     public void onCheck(View view){
         String city = ciudad_ingresada.getText().toString();
-        /**Elimina acentos del nombre de la ciudad ya que la API no los considera al ser en ingles.*/
+        //Elimina acentos del nombre de la ciudad ya que la API no los considera al ser en ingles.
         city = Normalizer.normalize(city, Normalizer.Form.NFKD);
         city = city.replaceAll("[^\\p{ASCII}]", "");
 
         final String URL = base_url+city+key_api;
+
         JsonObjectRequest req = new JsonObjectRequest(Request.Method.GET,URL, null,
                 new Response.Listener<JSONObject>() {
                     @Override
@@ -72,7 +73,7 @@ public class ClimaActivity extends AppCompatActivity {
                         try {
                             JSONObject main_object = response.getJSONObject("main");
                             PhoneData aux = PhoneData.getData();
-                            /**Obtención de los datos climáticos brindados por la API*/
+                            //Obtención de los datos climáticos brindados por la API
                             aux.setTempAct(main_object.getDouble("temp"));
                             aux.setTempMax(main_object.getDouble("temp_max"));
                             aux.setTempMin(main_object.getDouble("temp_min"));
@@ -90,7 +91,7 @@ public class ClimaActivity extends AppCompatActivity {
             public void onErrorResponse(VolleyError error) {
                 check_ciudad.setChecked(false);
                 cartel_ciudad.setText(error_ciudad);
-                /**Caso que ingresen una ciudad invalida luego de haber ingresado una valida*/
+                //Caso que ingresen una ciudad invalida luego de haber ingresado una valida
                 boton_siguiente.setVisibility(View.GONE);
             }
         });
@@ -105,9 +106,9 @@ public class ClimaActivity extends AppCompatActivity {
      */
     public void nextActivity(View view){
         Intent intent = new Intent(this, ResultadosActivity.class);
-        /**Verifica que la versión del dispositivo cumpla los requisitos mínimos para soportar las animaciones
+        /*Verifica que la versión del dispositivo cumpla los requisitos mínimos para soportar las animaciones
          * En caso contrario se avanza de actividad sin un efecto de animación.
-         * */
+         */
         if (Build.VERSION.SDK_INT > 16) {
             startActivity(intent);
             Animatoo.animateFade(this);
