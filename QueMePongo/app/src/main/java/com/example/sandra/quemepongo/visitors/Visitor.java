@@ -21,7 +21,7 @@ import com.example.sandra.quemepongo.prendas.calzados.Mocasin;
 import com.example.sandra.quemepongo.prendas.calzados.Sandalia;
 import com.example.sandra.quemepongo.prendas.calzados.Tacos;
 import com.example.sandra.quemepongo.prendas.calzados.Zapatilla;
-import com.example.sandra.quemepongo.prendas.camisas.BluzaSeda;
+import com.example.sandra.quemepongo.prendas.camisas.BlusaSeda;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaCorta;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaLarga;
 import com.example.sandra.quemepongo.prendas.pantalones.Babucha;
@@ -223,10 +223,10 @@ public interface Visitor {
     void visitPantalonVestir(PantalonVestir p);
 
     /**
-     * Setea puntaje de una bluza de seda segun la informacion del usuario.
-     * @param b bluza de seda a puntear.
+     * Setea puntaje de una blusa de seda segun la informacion del usuario.
+     * @param b blusa de seda a puntear.
      */
-    void visitBluzaSeda(BluzaSeda b);
+    void visitBlusaSeda(BlusaSeda b);
 
     /**
      * Setea puntaje de un vestido clasico segun la informacion del usuario.

@@ -9504,7 +9504,7 @@
 											"top": 935,
 											"width": 103,
 											"height": 13,
-											"text": "BluzaSeda"
+											"text": "BlusaSeda"
 										},
 										{
 											"_type": "LabelView",
@@ -12604,7 +12604,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "BluzaSeda",
+					"name": "BlusaSeda",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",

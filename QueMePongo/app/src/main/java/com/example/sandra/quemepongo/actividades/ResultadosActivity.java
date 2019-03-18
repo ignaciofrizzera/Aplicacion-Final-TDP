@@ -26,7 +26,7 @@ import com.example.sandra.quemepongo.prendas.calzados.Mocasin;
 import com.example.sandra.quemepongo.prendas.calzados.Sandalia;
 import com.example.sandra.quemepongo.prendas.calzados.Tacos;
 import com.example.sandra.quemepongo.prendas.calzados.Zapatilla;
-import com.example.sandra.quemepongo.prendas.camisas.BluzaSeda;
+import com.example.sandra.quemepongo.prendas.camisas.BlusaSeda;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaCorta;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaLarga;
 import com.example.sandra.quemepongo.prendas.pantalones.Babucha;
@@ -167,7 +167,7 @@ public class ResultadosActivity extends AppCompatActivity {
         lista_prendas.add(new SobretodoPanio());
         lista_prendas.add(new TapadoPanio());
         lista_prendas.add(new PanueloSeda());
-        lista_prendas.add(new BluzaSeda());
+        lista_prendas.add(new BlusaSeda());
         lista_prendas.add(new Chinos());
         lista_prendas.add(new PantalonVestir());
         lista_prendas.add(new Falda());

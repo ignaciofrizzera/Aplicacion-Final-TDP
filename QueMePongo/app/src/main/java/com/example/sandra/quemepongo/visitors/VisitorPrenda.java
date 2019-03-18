@@ -21,7 +21,7 @@ import com.example.sandra.quemepongo.prendas.calzados.Mocasin;
 import com.example.sandra.quemepongo.prendas.calzados.Sandalia;
 import com.example.sandra.quemepongo.prendas.calzados.Tacos;
 import com.example.sandra.quemepongo.prendas.calzados.Zapatilla;
-import com.example.sandra.quemepongo.prendas.camisas.BluzaSeda;
+import com.example.sandra.quemepongo.prendas.camisas.BlusaSeda;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaCorta;
 import com.example.sandra.quemepongo.prendas.camisas.CamisaLarga;
 import com.example.sandra.quemepongo.prendas.pantalones.Babucha;
@@ -375,7 +375,7 @@ public class VisitorPrenda implements Visitor {
     }
 
     @Override
-    public void visitBluzaSeda(BluzaSeda b) {
+    public void visitBlusaSeda(BlusaSeda b) {
         if(es_mujer && es_formal){
             b.setPuntaje(obligatorio);
         }

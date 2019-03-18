@@ -1130,7 +1130,7 @@
 											"top": 424,
 											"width": 279,
 											"height": 13,
-											"text": "+visitBluzaSeda(b: BluzaSeda)",
+											"text": "+visitBlusaSeda(b: BlusaSeda)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -5091,7 +5091,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFn9SWrWRW7xyM="
 							},
-							"name": "visitBluzaSeda",
+							"name": "visitBlusaSeda",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -5100,7 +5100,7 @@
 										"$ref": "AAAAAAFpWMHX64Gc2+o="
 									},
 									"name": "b",
-									"type": "BluzaSeda"
+									"type": "BlusaSeda"
 								}
 							]
 						},
