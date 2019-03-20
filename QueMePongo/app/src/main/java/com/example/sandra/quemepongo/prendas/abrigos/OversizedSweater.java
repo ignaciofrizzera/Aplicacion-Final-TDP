@@ -1,4 +1,5 @@
 package com.example.sandra.quemepongo.prendas.abrigos;
+
 import com.example.sandra.quemepongo.visitors.Visitor;
 
 /**
@@ -12,6 +13,16 @@ public class OversizedSweater extends Abrigo {
 
     @Override
     public void accept(Visitor v) {
-        v.visitOversizedSweater(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(es_mujer && !es_formal){
+            if(max < 20)
+                this.puntaje = opcional;
+            if(max < 15)
+                this.puntaje = obligatorio;
+        }
     }
 }

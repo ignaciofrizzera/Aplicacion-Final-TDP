@@ -13,6 +13,19 @@ public class Chinos extends Pantalon {
 
     @Override
     public void accept(Visitor v) {
-        v.visitChinos(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(!es_mujer){
+            if(es_formal){
+                this.puntaje = opcional;
+            }
+            else{
+                if(max < 25)
+                    this.puntaje = obligatorio;
+            }
+        }
     }
 }

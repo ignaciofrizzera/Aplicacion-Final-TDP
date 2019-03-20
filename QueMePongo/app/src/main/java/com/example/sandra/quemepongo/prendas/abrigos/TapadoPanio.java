@@ -11,8 +11,15 @@ public class TapadoPanio extends Abrigo{
         this.nombre = "Tapado de paño";
     }
 
-    @Override
     public void accept(Visitor v) {
-        v.visitTapadoPanio(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(es_mujer && es_formal){
+            if(max <= 15)
+                this.puntaje = obligatorio;
+        }
     }
 }

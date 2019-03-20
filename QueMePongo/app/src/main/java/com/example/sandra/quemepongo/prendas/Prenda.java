@@ -9,6 +9,15 @@ public abstract class Prenda {
     protected double puntaje;
     protected String nombre;
 
+    //La forma en que se puntean las prendas es subjectiva a la opinion del autor.
+
+    /*
+     * PUNTAJE = 10 - USAR SI O SI
+     * PUNTAJE = 7.5 - OPCIONAL
+     */
+    public static final double obligatorio = 10;
+    public static final double opcional = 7.5;
+
     /**
      * Devuelve el puntaje asignado a una prenda.
      * @return puntaje de una prenda.
@@ -18,12 +27,13 @@ public abstract class Prenda {
     }
 
     /**
-     * Establece el puntaje de una prenda.
-     * @param puntaje puntaje asignado a la prenda.
+     * Brinda a la prenda la serie de datos obtenidos del usuario para que esta determine su puntaje.
+     * @param max temperatura maxima.
+     * @param humedad porcentaje de humedad.
+     * @param es_mujer indicador si el usuario es mujer.
+     * @param es_formal indicador si el usuario se vestira formal.
      */
-    public void setPuntaje(double puntaje){
-        this.puntaje = puntaje;
-    }
+    public abstract void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal);
 
     /**
      * Devuelve el nombre de una prenda.
@@ -35,7 +45,8 @@ public abstract class Prenda {
 
     /**
      * Método que es parte del patrón de diseño Visitor.
-     * @param v visitor el cuál será aceptado por la prenda específica.
+     * @param v visitor el cuál será aceptado por la prenda.
      */
     public abstract void accept(Visitor v);
+
 }

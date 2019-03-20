@@ -13,6 +13,13 @@ public class MangaCorta extends Remera {
     }
 
     public void accept(Visitor v) {
-        v.visitRemeraCorta(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(!es_formal && max > 15 ){
+            this.puntaje = obligatorio;
+        }
     }
 }

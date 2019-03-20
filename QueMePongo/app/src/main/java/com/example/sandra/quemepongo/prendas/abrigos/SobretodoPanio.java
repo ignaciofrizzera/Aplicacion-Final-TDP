@@ -1,5 +1,6 @@
 package com.example.sandra.quemepongo.prendas.abrigos;
 
+
 import com.example.sandra.quemepongo.visitors.Visitor;
 
 /**
@@ -12,8 +13,18 @@ public class SobretodoPanio extends Abrigo {
         this.nombre = "Sobretodo de paño";
     }
 
-    @Override
     public void accept(Visitor v) {
-        v.visitSobretodoPanio(this);
+        v.visit(this);
     }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(!es_mujer && es_formal){
+            if(max <= 15)
+                this.puntaje = opcional;
+            if(max <= 10)
+                this.puntaje = obligatorio;
+        }
+    }
+
 }

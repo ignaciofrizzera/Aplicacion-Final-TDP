@@ -13,7 +13,14 @@ public class Falda extends Prenda {
 
     @Override
     public void accept(Visitor v) {
-        v.visitFalda(this);
+        v.visit(this);
     }
 
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(es_mujer && es_formal){
+            if(max > 20)
+                this.puntaje = obligatorio;
+        }
+    }
 }

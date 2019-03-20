@@ -14,6 +14,18 @@ public class Bermudas extends Pantalon {
     }
 
     public void accept(Visitor v) {
-        v.visitBermudas(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(!es_mujer && !es_formal){
+            if (max > 20){
+                this.puntaje = opcional;
+            }
+            if (max >= 25) {
+                this.puntaje = obligatorio;
+            }
+        }
     }
 }

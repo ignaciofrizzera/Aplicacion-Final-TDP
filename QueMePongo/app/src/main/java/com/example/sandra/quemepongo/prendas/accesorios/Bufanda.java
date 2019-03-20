@@ -14,6 +14,18 @@ public class Bufanda extends Accesorios {
 
     @Override
     public void accept(Visitor v) {
-        v.visitBufanda(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(max < 15){
+            this.puntaje = opcional;
+        }
+        else {
+            if (max < 10) {
+                this.puntaje = obligatorio;
+            }
+        }
     }
 }

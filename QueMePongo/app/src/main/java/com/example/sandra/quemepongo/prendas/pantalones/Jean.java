@@ -13,6 +13,18 @@ public class Jean extends Pantalon {
     }
 
     public void accept(Visitor v){
-        v.visitJean(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if (!es_formal) {
+            if (max <= 25) {
+                this.puntaje = obligatorio;
+            }
+            else{
+                this.puntaje = opcional;
+            }
+        }
     }
 }

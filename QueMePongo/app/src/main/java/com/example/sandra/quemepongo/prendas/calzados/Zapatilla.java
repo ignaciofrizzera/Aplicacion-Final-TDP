@@ -11,6 +11,13 @@ public class Zapatilla extends Calzado {
     }
 
     public void accept(Visitor v) {
-        v.visitZapatilla(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(!es_formal){
+            this.puntaje = obligatorio;
+        }
     }
 }

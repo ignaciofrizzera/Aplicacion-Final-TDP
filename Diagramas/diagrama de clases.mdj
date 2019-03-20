@@ -710,563 +710,19 @@
 									"subViews": [
 										{
 											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9S6DahhrW0A=",
+											"_id": "AAAAAAFpmx0JDKhNlFY=",
 											"_parent": {
 												"$ref": "AAAAAAFn9SWrXhXEzNk="
 											},
 											"model": {
-												"$ref": "AAAAAAFn9S6CwBho0Js="
+												"$ref": "AAAAAAFpmx0IOahK9uQ="
 											},
-											"font": "Arial;13;0",
+											"font": "Arial;13;2",
 											"left": 381,
 											"top": 64,
 											"width": 279,
 											"height": 13,
-											"text": "+visitCampera(c: Campera)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9S7ylBh2QXw=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9S7yAhhzap4="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 79,
-											"width": 279,
-											"height": 13,
-											"text": "+visitSweater(s: Sweater)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9S8EtRh8Jvs=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9S8EHxh5JxI="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 94,
-											"width": 279,
-											"height": 13,
-											"text": "+visitBuzo(b: Buzo)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9S8WiRiCnCU=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9S8V7hh/3UY="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 109,
-											"width": 279,
-											"height": 13,
-											"text": "+visitMusculosa(m: Musculosa)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TBGihiStX0=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TBF5xiP/rs="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 124,
-											"width": 279,
-											"height": 13,
-											"text": "+visitRemeraCorta(r: MangaCorta)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TBPjxiYhTc=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TBO9xiVxXA="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 139,
-											"width": 279,
-											"height": 13,
-											"text": "+visitRemeraLarga(r: MangaLarga)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TBYUhiecZU=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TBXtRib9Wg="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 154,
-											"width": 279,
-											"height": 13,
-											"text": "+visitJean(j: Jean)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TBgJhik8ws=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TBfkxihuFY="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 169,
-											"width": 279,
-											"height": 13,
-											"text": "+visitBabucha(b: Babucha)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TBqIhiqz6o=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TBplxinB6k="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 184,
-											"width": 279,
-											"height": 13,
-											"text": "+visitZapatilla(z: Zapatilla)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TBygxiwYPQ=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TBx2xitKY8="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 199,
-											"width": 279,
-											"height": 13,
-											"text": "+visitBlazer(b: Blazer)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TB9Lxi2vqg=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TB8eBizgus="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 214,
-											"width": 279,
-											"height": 13,
-											"text": "+visitBorcego(b: Borcego)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TCF7xi8F2o=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TCFTxi5s0w="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 229,
-											"width": 279,
-											"height": 13,
-											"text": "+visitBota(b: Bota)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TCP4xjCEM4=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TCPQRi/DGw="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 244,
-											"width": 279,
-											"height": 13,
-											"text": "+visitSandalia(s: Sandalia)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9TCZ8BjI7wQ=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9TCZYBjFFLw="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 259,
-											"width": 279,
-											"height": 13,
-											"text": "+visitShorts(s: Shorts)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9Y+sriTP9Sc=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9Y+rsiTM14c="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 274,
-											"width": 279,
-											"height": 13,
-											"text": "+visitTermica(t: Termica)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9ZFD6CWPc5Y=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9ZFDQiWM/B8="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 289,
-											"width": 279,
-											"height": 13,
-											"text": "+visitMocasin(m: Mocasin)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9ZFR8yWVJIg=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9ZFRUyWS8SY="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 304,
-											"width": 279,
-											"height": 13,
-											"text": "+visitTacos(t: Tacos)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9ZFeMiWb9t0=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9ZFdjCWYGTE="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 319,
-											"width": 279,
-											"height": 13,
-											"text": "+visitChatas(c: Chatas)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9ZLDzyZcoQk=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9ZLDNiZZZpY="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 334,
-											"width": 279,
-											"height": 13,
-											"text": "+visitBufanda(b: Bufanda)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFn9ZLZJiZi6hE=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFn9ZLYlyZfStM="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 349,
-											"width": 279,
-											"height": 13,
-											"text": "+visitParaguas(p: Paraguas)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFoENqeQ1P0rLQ=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFoENqdllPx8zI="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 364,
-											"width": 279,
-											"height": 13,
-											"text": "+visitCamisaCorta(c: CamisaCorta)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFoENrX5VP7akE=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFoENrXR1P4Xco="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 379,
-											"width": 279,
-											"height": 13,
-											"text": "+visitCamisaLarga(c: CamisaLarga)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMEE+4GLlqE=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMEEY4GII60="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 394,
-											"width": 279,
-											"height": 13,
-											"text": "+visitFalda(f: Falda)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMHLroGZCc0=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMHLKYGWQDc="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 409,
-											"width": 279,
-											"height": 13,
-											"text": "+visitVestidoClasico(v: VestidoClasico)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMHYhYGfoAI=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMHX64Gc2+o="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 424,
-											"width": 279,
-											"height": 13,
-											"text": "+visitBlusaSeda(b: BlusaSeda)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMHoAIGmYp0=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMHnf4GjMHc="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 439,
-											"width": 279,
-											"height": 13,
-											"text": "+visitPantalonVestir(p: PantalonVestir)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMHtP4GtJow=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMHsnYGqmUM="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 454,
-											"width": 279,
-											"height": 13,
-											"text": "+visitChinos(c: Chinos)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMNJKIG5lXs=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMNIlYG24ec="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 469,
-											"width": 279,
-											"height": 13,
-											"text": "+visitPanueloSeda(p: PanueloSeda)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMNWD4G/0Bs=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMNVh4G8zgI="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 484,
-											"width": 279,
-											"height": 13,
-											"text": "+visitOversizedSweater(s: OversizedSweater)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMNkJIHFaLg=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMNjkYHCTUg="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 499,
-											"width": 279,
-											"height": 13,
-											"text": "+visitTapadoPanio(t: TapadoPanio)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMZlHoHYUHI=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMZkkYHVBMg="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 514,
-											"width": 279,
-											"height": 13,
-											"text": "+visitSobretodoPanio(s: SobretodoPanio)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMf04IHkjhY=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMf0XoHhk44="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 529,
-											"width": 279,
-											"height": 13,
-											"text": "+visitBermudas(b: Bermudas)",
-											"horizontalAlignment": 0
-										},
-										{
-											"_type": "UMLOperationView",
-											"_id": "AAAAAAFpWMl88oHr8AA=",
-											"_parent": {
-												"$ref": "AAAAAAFn9SWrXhXEzNk="
-											},
-											"model": {
-												"$ref": "AAAAAAFpWMl8Y4HoW0Q="
-											},
-											"font": "Arial;13;0",
-											"left": 381,
-											"top": 544,
-											"width": 279,
-											"height": 13,
-											"text": "+visitChaleco(c: Chaleco)",
+											"text": "+visit(p: Prenda)",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1274,7 +730,7 @@
 									"left": 376,
 									"top": 59,
 									"width": 289,
-									"height": 503
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1333,7 +789,7 @@
 							"left": 376,
 							"top": 24,
 							"width": 289,
-							"height": 577,
+							"height": 65,
 							"nameCompartment": {
 								"$ref": "AAAAAAFn9SWrXRW+1ys="
 							},
@@ -1378,8 +834,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -528,
-											"top": 880,
+											"left": -496,
+											"top": -176,
 											"height": 13
 										},
 										{
@@ -1389,11 +845,11 @@
 												"$ref": "AAAAAAFn9SeN0hXsY9M="
 											},
 											"font": "Arial;13;1",
-											"left": 421,
-											"top": 671,
+											"left": 437,
+											"top": 143,
 											"width": 175,
 											"height": 13,
-											"text": "VisitorPrenda"
+											"text": "VisitorScores"
 										},
 										{
 											"_type": "LabelView",
@@ -1403,8 +859,8 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -528,
-											"top": 880,
+											"left": -496,
+											"top": -176,
 											"width": 73.67724609375,
 											"height": 13,
 											"text": "(from Model)"
@@ -1417,15 +873,15 @@
 											},
 											"visible": false,
 											"font": "Arial;13;0",
-											"left": -528,
-											"top": 880,
+											"left": -496,
+											"top": -176,
 											"height": 13,
 											"horizontalAlignment": 1
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 416,
-									"top": 664,
+									"left": 432,
+									"top": 136,
 									"width": 185,
 									"height": 25,
 									"stereotypeLabel": {
@@ -1461,8 +917,8 @@
 												"$ref": "AAAAAAFn9TT03xj0Zqg="
 											},
 											"font": "Arial;13;0",
-											"left": 421,
-											"top": 694,
+											"left": 437,
+											"top": 166,
 											"width": 175,
 											"height": 13,
 											"text": "-max: double",
@@ -1478,8 +934,8 @@
 												"$ref": "AAAAAAFpWNVRkYJu0Eo="
 											},
 											"font": "Arial;13;0",
-											"left": 421,
-											"top": 709,
+											"left": 437,
+											"top": 181,
 											"width": 175,
 											"height": 13,
 											"text": "-humedad: int",
@@ -1495,8 +951,8 @@
 												"$ref": "AAAAAAFpWNVlsYJ0WqE="
 											},
 											"font": "Arial;13;0",
-											"left": 421,
-											"top": 724,
+											"left": 437,
+											"top": 196,
 											"width": 175,
 											"height": 13,
 											"text": "-es_mujer: boolean",
@@ -1512,8 +968,8 @@
 												"$ref": "AAAAAAFpWNV2S4J6x9c="
 											},
 											"font": "Arial;13;0",
-											"left": 421,
-											"top": 739,
+											"left": 437,
+											"top": 211,
 											"width": 175,
 											"height": 13,
 											"text": "-es_formal: boolean",
@@ -1521,8 +977,8 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 416,
-									"top": 689,
+									"left": 432,
+									"top": 161,
 									"width": 185,
 									"height": 68
 								},
@@ -1536,8 +992,8 @@
 										"$ref": "AAAAAAFn9SeN0RXprGM="
 									},
 									"font": "Arial;13;0",
-									"left": 416,
-									"top": 757,
+									"left": 432,
+									"top": 229,
 									"width": 185,
 									"height": 10
 								},
@@ -1552,8 +1008,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -264,
-									"top": 440,
+									"left": -248,
+									"top": -88,
 									"width": 10,
 									"height": 10
 								},
@@ -1568,18 +1024,18 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": -264,
-									"top": 440,
+									"left": -248,
+									"top": -88,
 									"width": 10,
 									"height": 10
 								}
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 416,
-							"top": 664,
+							"left": 432,
+							"top": 136,
 							"width": 185,
-							"height": 105,
+							"height": 129,
 							"nameCompartment": {
 								"$ref": "AAAAAAFn9SeN0hXsY9M="
 							},
@@ -1617,8 +1073,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 495,
-									"top": 625,
+									"left": 506,
+									"top": 105,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1638,8 +1094,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 480,
-									"top": 625,
+									"left": 491,
+									"top": 105,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1659,8 +1115,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 524,
-									"top": 626,
+									"left": 535,
+									"top": 106,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1678,7 +1134,7 @@
 								"$ref": "AAAAAAFn9SeN0hXrPcw="
 							},
 							"lineStyle": 1,
-							"points": "510:663;511:601",
+							"points": "522:135;521:89",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFpWL+tgIF1Uno="
@@ -4591,670 +4047,25 @@
 					"operations": [
 						{
 							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9S6CwBho0Js=",
+							"_id": "AAAAAAFpmx0IOahK9uQ=",
 							"_parent": {
 								"$ref": "AAAAAAFn9SWrWRW7xyM="
 							},
-							"name": "visitCampera",
+							"name": "visit",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWM9KM4IIqEs=",
+									"_id": "AAAAAAFpmx0qqKhRghQ=",
 									"_parent": {
-										"$ref": "AAAAAAFn9S6CwBho0Js="
-									},
-									"name": "c",
-									"type": {
-										"$ref": "AAAAAAFn6tRjW8f6QJs="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9S7yAhhzap4=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitSweater",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWM9p1YILwxQ=",
-									"_parent": {
-										"$ref": "AAAAAAFn9S7yAhhzap4="
-									},
-									"name": "s",
-									"type": {
-										"$ref": "AAAAAAFn6ujMGMrnOtc="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9S8EHxh5JxI=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitBuzo",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWM+EP4IO5Cs=",
-									"_parent": {
-										"$ref": "AAAAAAFn9S8EHxh5JxI="
-									},
-									"name": "b",
-									"type": {
-										"$ref": "AAAAAAFn6tmGdsjQ1U0="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9S8V7hh/3UY=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitMusculosa",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWM+he4IRAQw=",
-									"_parent": {
-										"$ref": "AAAAAAFn9S8V7hh/3UY="
-									},
-									"name": "m",
-									"type": {
-										"$ref": "AAAAAAFn6tuixsm7qng="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TBF5xiP/rs=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitRemeraCorta",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNAw8oIUkNI=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TBF5xiP/rs="
-									},
-									"name": "r",
-									"type": {
-										"$ref": "AAAAAAFn6tohNskBgcs="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TBO9xiVxXA=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitRemeraLarga",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNBRLIIXQ/Q=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TBO9xiVxXA="
-									},
-									"name": "r",
-									"type": {
-										"$ref": "AAAAAAFn6topBckqeb0="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TBXtRib9Wg=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitJean",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNBqWYIas2E=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TBXtRib9Wg="
-									},
-									"name": "j",
-									"type": {
-										"$ref": "AAAAAAFn6uHS78oLTFU="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TBfkxihuFY=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitBabucha",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNCATYIdd/c=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TBfkxihuFY="
-									},
-									"name": "b",
-									"type": {
-										"$ref": "AAAAAAFn6uHqeco1xB4="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TBplxinB6k=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitZapatilla",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNCWqIIgKV4=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TBplxinB6k="
-									},
-									"name": "z",
-									"type": {
-										"$ref": "AAAAAAFn6upfbct5DfY="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TBx2xitKY8=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitBlazer",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNCrEIIjsUc=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TBx2xitKY8="
-									},
-									"name": "b",
-									"type": "Blazer"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TB8eBizgus=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitBorcego",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNDCKYImvJk=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TB8eBizgus="
-									},
-									"name": "b",
-									"type": {
-										"$ref": "AAAAAAFn6u3RmsxDl7s="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TCFTxi5s0w=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitBota",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNDmFYIpI2k=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TCFTxi5s0w="
-									},
-									"name": "b",
-									"type": {
-										"$ref": "AAAAAAFn6u95YsysGM0="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TCPQRi/DGw=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitSandalia",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNEMoIIsjN0=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TCPQRi/DGw="
-									},
-									"name": "s",
-									"type": {
-										"$ref": "AAAAAAFn6u45BMx+c/M="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9TCZYBjFFLw=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitShorts",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNEkqYIv3bk=",
-									"_parent": {
-										"$ref": "AAAAAAFn9TCZYBjFFLw="
-									},
-									"name": "s",
-									"type": {
-										"$ref": "AAAAAAFn6ufNLMqNZgQ="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9Y+rsiTM14c=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitTermica",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNFX/IIyr6I=",
-									"_parent": {
-										"$ref": "AAAAAAFn9Y+rsiTM14c="
-									},
-									"name": "t",
-									"type": {
-										"$ref": "AAAAAAFn6toxzslTlsw="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9ZFDQiWM/B8=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitMocasin",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNFww4I1XAU=",
-									"_parent": {
-										"$ref": "AAAAAAFn9ZFDQiWM/B8="
-									},
-									"name": "m",
-									"type": {
-										"$ref": "AAAAAAFn9ZAY7CT9j7U="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9ZFRUyWS8SY=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitTacos",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNGAcoI4zDk=",
-									"_parent": {
-										"$ref": "AAAAAAFn9ZFRUyWS8SY="
-									},
-									"name": "t",
-									"type": {
-										"$ref": "AAAAAAFn9ZAoKSUms/o="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9ZFdjCWYGTE=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitChatas",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNGSaYI7Vps=",
-									"_parent": {
-										"$ref": "AAAAAAFn9ZFdjCWYGTE="
-									},
-									"name": "c",
-									"type": {
-										"$ref": "AAAAAAFn9ZAHsSTUeHg="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9ZLDNiZZZpY=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitBufanda",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNGmdYI+fK0=",
-									"_parent": {
-										"$ref": "AAAAAAFn9ZLDNiZZZpY="
-									},
-									"name": "b",
-									"type": {
-										"$ref": "AAAAAAFn9ZIdjyXeg1I="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFn9ZLYlyZfStM=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitParaguas",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNG6A4JBtGo=",
-									"_parent": {
-										"$ref": "AAAAAAFn9ZLYlyZfStM="
+										"$ref": "AAAAAAFpmx0IOahK9uQ="
 									},
 									"name": "p",
-									"type": "Paraguas"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFoENqdllPx8zI=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitCamisaCorta",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNHP0oJEMZw=",
-									"_parent": {
-										"$ref": "AAAAAAFoENqdllPx8zI="
-									},
-									"name": "c",
 									"type": {
-										"$ref": "AAAAAAFoENnZXlNn0ac="
+										"$ref": "AAAAAAFn6s0LnsRzyyQ="
 									}
 								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFoENrXR1P4Xco=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitCamisaLarga",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNHkqIJHdVU=",
-									"_parent": {
-										"$ref": "AAAAAAFoENrXR1P4Xco="
-									},
-									"name": "c",
-									"type": {
-										"$ref": "AAAAAAFoENolGVORMvI="
-									}
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMEEY4GII60=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitFalda",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNHzF4JKjFY=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMEEY4GII60="
-									},
-									"name": "f",
-									"type": "Falda"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMHLKYGWQDc=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitVestidoClasico",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNIKYYJNvmg=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMHLKYGWQDc="
-									},
-									"name": "v",
-									"type": "VestidoClasico"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMHX64Gc2+o=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitBlusaSeda",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNIg2YJQ0uk=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMHX64Gc2+o="
-									},
-									"name": "b",
-									"type": "BlusaSeda"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMHnf4GjMHc=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitPantalonVestir",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNLom4JT2C4=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMHnf4GjMHc="
-									},
-									"name": "p",
-									"type": "PantalonVestir"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMHsnYGqmUM=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitChinos",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNL9SYJW1EE=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMHsnYGqmUM="
-									},
-									"name": "c",
-									"type": "Chinos"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMNIlYG24ec=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitPanueloSeda",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNMTMoJZwpY=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMNIlYG24ec="
-									},
-									"name": "p",
-									"type": "PanueloSeda"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMNVh4G8zgI=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitOversizedSweater",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNNMlYJc2rU=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMNVh4G8zgI="
-									},
-									"name": "s",
-									"type": "OversizedSweater"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMNjkYHCTUg=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitTapadoPanio",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNNweIJfVaU=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMNjkYHCTUg="
-									},
-									"name": "t",
-									"type": "TapadoPanio"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMZkkYHVBMg=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitSobretodoPanio",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNOGToJiN8M=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMZkkYHVBMg="
-									},
-									"name": "s",
-									"type": "SobretodoPanio"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMf0XoHhk44=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitBermudas",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNOhGIJlbpg=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMf0XoHhk44="
-									},
-									"name": "b",
-									"type": "Bermudas"
-								}
-							]
-						},
-						{
-							"_type": "UMLOperation",
-							"_id": "AAAAAAFpWMl8Y4HoW0Q=",
-							"_parent": {
-								"$ref": "AAAAAAFn9SWrWRW7xyM="
-							},
-							"name": "visitChaleco",
-							"parameters": [
-								{
-									"_type": "UMLParameter",
-									"_id": "AAAAAAFpWNO4DYJo0q8=",
-									"_parent": {
-										"$ref": "AAAAAAFpWMl8Y4HoW0Q="
-									},
-									"name": "c",
-									"type": "Chaleco"
-								}
-							]
+							],
+							"isAbstract": true
 						}
 					],
 					"receptions": [
@@ -5275,7 +4086,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "VisitorPrenda",
+					"name": "VisitorScores",
 					"ownedElements": [
 						{
 							"_type": "UMLGeneralization",

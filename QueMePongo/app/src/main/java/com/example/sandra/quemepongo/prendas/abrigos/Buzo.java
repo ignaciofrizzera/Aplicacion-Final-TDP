@@ -14,6 +14,13 @@ public class Buzo extends Abrigo {
 
     @Override
     public void accept(Visitor v) {
-        v.visitBuzo(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(!es_formal && max <= 20){
+            this.puntaje = obligatorio;
+        }
     }
 }

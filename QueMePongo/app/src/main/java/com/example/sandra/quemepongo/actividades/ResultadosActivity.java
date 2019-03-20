@@ -40,12 +40,12 @@ import com.example.sandra.quemepongo.prendas.remeras.MangaLarga;
 import com.example.sandra.quemepongo.prendas.remeras.Musculosa;
 import com.example.sandra.quemepongo.prendas.remeras.Termica;
 import com.example.sandra.quemepongo.visitors.Visitor;
-import com.example.sandra.quemepongo.visitors.VisitorPrenda;
+import com.example.sandra.quemepongo.visitors.VisitorScores;
 
 import java.util.ArrayList;
 
-import static com.example.sandra.quemepongo.visitors.VisitorPrenda.obligatorio;
-import static com.example.sandra.quemepongo.visitors.VisitorPrenda.opcional;
+import static com.example.sandra.quemepongo.prendas.Prenda.obligatorio;
+import static com.example.sandra.quemepongo.prendas.Prenda.opcional;
 
 /**
  * Clase/Actividad destinada a setear los puntajes de las prendas en base a los datos climáticos y mostrar
@@ -112,10 +112,10 @@ public class ResultadosActivity extends AppCompatActivity {
      * Y en base a los puntajes se van mostrando los nombres de las prendas por pantalla.
      */
     private void setScores(){
-        Visitor visitor_prendas = new VisitorPrenda();
+        Visitor visitor_scores = new VisitorScores();
         this.setUpList();
         for(Prenda e : lista_prendas) {
-            e.accept(visitor_prendas);
+            e.accept(visitor_scores);
 
             if(e.getPuntaje() == obligatorio){
                 msg_deberia = msg_deberia + e.getNombre() + ", ";
@@ -127,6 +127,7 @@ public class ResultadosActivity extends AppCompatActivity {
 
         /*El substring comienza en 4 porque se esta almacenando un "null" que no puedo lograr eliminar.
          * Luego se cortan los ultimos 2 ya que son el espacio y la coma, y se reemplazan con un punto.
+         * Esto se realiza para que el mensaje mostrado por pantalla finalice con un '.' y no una ','.
          */
         String msg_deberia_final = msg_deberia.substring(4,msg_deberia.length()-2)+'.';
         String msg_recomienda_final = msg_opcional.substring(4,msg_opcional.length()-2)+'.';

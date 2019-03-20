@@ -13,6 +13,18 @@ public class CamisaLarga extends Camisa {
     }
 
     public void accept(Visitor v) {
-        v.visitCamisaLarga(this);
+        v.visit(this);
+    }
+
+    @Override
+    public void setPuntaje(double max, int humedad, boolean es_mujer, boolean es_formal) {
+        if(es_formal){
+            if(!es_mujer) {
+                this.puntaje = obligatorio;
+            }
+            else{
+                this.puntaje = opcional;
+            }
+        }
     }
 }
