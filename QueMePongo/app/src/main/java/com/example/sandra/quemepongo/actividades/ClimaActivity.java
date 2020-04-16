@@ -28,7 +28,7 @@ import java.text.Normalizer;
 public class ClimaActivity extends AppCompatActivity {
 
     private final String base_url = "http://api.openweathermap.org/data/2.5/weather?q=";
-    private final String key_api = "&APPID=83ab580fe33631641111971b6488e1cd";
+    private final String key_api = "api here";
     private final String error_ciudad = "Ingrese una ciudad valida o verifique su conexión a internet";
     private final String ciudad_correcta = "Se ha ingresado una ciudad valida";
     private TextView cartel_ciudad;
